@@ -1,0 +1,13 @@
+{
+  "name": "com.igme202.singleton",
+  "version": "1.2.0",
+  "displayName": "IGM Singleton",
+  "description": "This package contains the base scripts to make Singleton classes in Unity.",
+  "unity": "2019.4",
+  "keywords": [
+    "singleton"
+  ],
+  "documentationUrl": "https://github.com/Baker-IGM/IGM-Signleton#readme",
+  "changelogUrl": "https://github.com/Baker-IGM/IGM-Signleton/releases",
+  "licensesUrl": "https://github.com/Baker-IGM/IGM-Signleton/blob/main/LICENSE"
+}

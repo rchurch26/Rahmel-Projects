@@ -1,0 +1,220 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Bug::Start()
+extern void Bug_Start_mE86C019D2EC18DF69BAA1ED42287BD993CD52849 (void);
+// 0x00000002 System.Void Bug::Update()
+extern void Bug_Update_mBFF98F6DA5907B491A3D7D80E6056B6E6B742CE1 (void);
+// 0x00000003 System.Void Bug::SteeringForces()
+// 0x00000004 UnityEngine.Vector3 Bug::Seek(UnityEngine.Vector3)
+extern void Bug_Seek_mAC45B4927BD8D2D018B8075C42631770D0AC5457 (void);
+// 0x00000005 UnityEngine.Vector3 Bug::Flee(UnityEngine.Vector3)
+extern void Bug_Flee_m9E152AFF6DD1029E3ED64E71FF575005A609B77F (void);
+// 0x00000006 UnityEngine.Vector3 Bug::Pursue(Bug)
+extern void Bug_Pursue_mFD133A4FB3093B752703E433B9068FAD2C13DADB (void);
+// 0x00000007 UnityEngine.Vector3 Bug::StayInBounds(System.Single)
+extern void Bug_StayInBounds_m032F7307802C05BFF4DC6126A2F8DE0521FB1DAC (void);
+// 0x00000008 UnityEngine.Vector3 Bug::Separate()
+extern void Bug_Separate_m4CFA1409E64554F678A70041839A12997951D9D1 (void);
+// 0x00000009 UnityEngine.Vector3 Bug::Wander(System.Single)
+extern void Bug_Wander_m580C5E3B52F3186AFC792FDF732BEF9B7387CAE8 (void);
+// 0x0000000A UnityEngine.Vector3 Bug::CalcFuturePosition(System.Single)
+extern void Bug_CalcFuturePosition_m648D5AF831AA95A85753A710E45C3BFD5A335896 (void);
+// 0x0000000B UnityEngine.Vector3 Bug::AvoidObstacle()
+extern void Bug_AvoidObstacle_mD420AD7FC8DF3B7A0E8E2C4A7F933BC63754FF2C (void);
+// 0x0000000C System.Boolean Bug::SeeAnt()
+extern void Bug_SeeAnt_m588E7DB3D41C0947B04FC59077F71E64B52BB6BF (void);
+// 0x0000000D System.Boolean Bug::SeeSpider()
+extern void Bug_SeeSpider_mB19A5AA87154BC2BB4DC89EAEEBF84CC283EE29C (void);
+// 0x0000000E System.Void Bug::.ctor()
+extern void Bug__ctor_m359BD3D328463F98286B9529D957A6D7EED69E62 (void);
+// 0x0000000F System.Void BugManager::.ctor()
+extern void BugManager__ctor_m47C900AB78EF25680FA589B1A184EBB3E0FB574D (void);
+// 0x00000010 System.Void BugManager::Start()
+extern void BugManager_Start_mF0A3431574A1656721A56FF3DED39FC177F98FAB (void);
+// 0x00000011 System.Void BugManager::Update()
+extern void BugManager_Update_m8B89276A69A08A7173D4326D2BD69BE35D714BB8 (void);
+// 0x00000012 RunAway BugManager::KnowClosestAnt(UnityEngine.Vector3)
+extern void BugManager_KnowClosestAnt_mE68929602AC451095ED764140714494B33061944 (void);
+// 0x00000013 Hunt BugManager::KnowClosestSpider(UnityEngine.Vector3)
+extern void BugManager_KnowClosestSpider_m2869C00477BD3A3F95A57AE9A3420F0B8A9F571D (void);
+// 0x00000014 Food BugManager::FindClosestFood(UnityEngine.Vector3)
+extern void BugManager_FindClosestFood_mE848B9876C181DCC9E4CB27B43CBF39261E88B1C (void);
+// 0x00000015 System.Void BugManager::SpawnFood()
+extern void BugManager_SpawnFood_m86359E07603CDC8948484C1805371A9C9935B0BF (void);
+// 0x00000016 System.Void FinalScore::Start()
+extern void FinalScore_Start_m759D78132155ECA23913AB20F0E1924CDEF0896D (void);
+// 0x00000017 System.Void FinalScore::.ctor()
+extern void FinalScore__ctor_m838A4E0F8F2636F47B90B5D03BC10FB1A8D267C8 (void);
+// 0x00000018 System.Void Food::OnDrawGizmosSelected()
+extern void Food_OnDrawGizmosSelected_m963533FC171D9B359577A7D5D3D1E14585B8B8B0 (void);
+// 0x00000019 System.Void Food::.ctor()
+extern void Food__ctor_mAC333049BFB2EBB6E99715CA647249B008EEFD66 (void);
+// 0x0000001A System.Void Hunt::SteeringForces()
+extern void Hunt_SteeringForces_m9AA03ACC63FED6658C3006C7B96261A37F93DE37 (void);
+// 0x0000001B System.Void Hunt::OnDrawGizmos()
+extern void Hunt_OnDrawGizmos_m6FCC643561BDA90B72B1B26C9E3B11E44A969A85 (void);
+// 0x0000001C System.Void Hunt::.ctor()
+extern void Hunt__ctor_mD31AE59373588827DD436676AFB5091FD78A7DD9 (void);
+// 0x0000001D System.Void Obstacle::OnDrawGizmosSelected()
+extern void Obstacle_OnDrawGizmosSelected_m6B9B3198C0BB2D8BAE63CAFC64EAC2B4591D5BE6 (void);
+// 0x0000001E System.Void Obstacle::.ctor()
+extern void Obstacle__ctor_mF400BC13FBAC15398D0EE2E05DF96F481257945D (void);
+// 0x0000001F System.Void PhysicsObject::Start()
+extern void PhysicsObject_Start_m122B168C9190C46415CC394D67044F4C3A4F3052 (void);
+// 0x00000020 System.Void PhysicsObject::Update()
+extern void PhysicsObject_Update_mE5ECA2AD9F5DC2A1E6AF8E294CAB7F35301D6D7E (void);
+// 0x00000021 System.Void PhysicsObject::ApplyForce(UnityEngine.Vector3)
+extern void PhysicsObject_ApplyForce_mE5780F33CC5C6DB96998C5E79A43D3BBB2D3FC56 (void);
+// 0x00000022 System.Void PhysicsObject::OnDrawGizmosSelected()
+extern void PhysicsObject_OnDrawGizmosSelected_m801796CAB1A9AAB2366B77D502A79F9CB4F11659 (void);
+// 0x00000023 System.Void PhysicsObject::.ctor()
+extern void PhysicsObject__ctor_m3B99A8AE855BE294114575396C783B48D3EBD71A (void);
+// 0x00000024 System.Void RunAway::Update()
+extern void RunAway_Update_m741D7164D18CA009FC67FFD84B25F27EFD5D4630 (void);
+// 0x00000025 System.Void RunAway::SteeringForces()
+extern void RunAway_SteeringForces_m8D9E00B953161DDB52C0B5A6050EFA996C371089 (void);
+// 0x00000026 System.Void RunAway::OnDrawGizmos()
+extern void RunAway_OnDrawGizmos_m0F370AB9B513A04E121B0135D423EF6AB76D608F (void);
+// 0x00000027 System.Void RunAway::.ctor()
+extern void RunAway__ctor_m3F5A8F64E6BAEBE853E5821DAD5246DC25B511DE (void);
+// 0x00000028 System.Void SetBugs::Start()
+extern void SetBugs_Start_m8A7C84B92EDD48DAB59C194677F369AB8B8D460F (void);
+// 0x00000029 System.Void SetBugs::AntIncrease()
+extern void SetBugs_AntIncrease_m50D27EA89DF48B379999DD1E5631B4FA316A6414 (void);
+// 0x0000002A System.Void SetBugs::AntDecrease()
+extern void SetBugs_AntDecrease_m377794B151506FE07687073E7F368B4C1D8F4AAC (void);
+// 0x0000002B System.Void SetBugs::SpiderIncrease()
+extern void SetBugs_SpiderIncrease_mBCE8A4F3819BF5A7DED1946261BABA003F82B67B (void);
+// 0x0000002C System.Void SetBugs::SpiderDecrease()
+extern void SetBugs_SpiderDecrease_m264D485178BCC40A119243636D1FB2ED60CF1EFD (void);
+// 0x0000002D System.Void SetBugs::.ctor()
+extern void SetBugs__ctor_m2E18A784DD83CED2F273C7D76203359ACBC92F04 (void);
+static Il2CppMethodPointer s_methodPointers[45] = 
+{
+	Bug_Start_mE86C019D2EC18DF69BAA1ED42287BD993CD52849,
+	Bug_Update_mBFF98F6DA5907B491A3D7D80E6056B6E6B742CE1,
+	NULL,
+	Bug_Seek_mAC45B4927BD8D2D018B8075C42631770D0AC5457,
+	Bug_Flee_m9E152AFF6DD1029E3ED64E71FF575005A609B77F,
+	Bug_Pursue_mFD133A4FB3093B752703E433B9068FAD2C13DADB,
+	Bug_StayInBounds_m032F7307802C05BFF4DC6126A2F8DE0521FB1DAC,
+	Bug_Separate_m4CFA1409E64554F678A70041839A12997951D9D1,
+	Bug_Wander_m580C5E3B52F3186AFC792FDF732BEF9B7387CAE8,
+	Bug_CalcFuturePosition_m648D5AF831AA95A85753A710E45C3BFD5A335896,
+	Bug_AvoidObstacle_mD420AD7FC8DF3B7A0E8E2C4A7F933BC63754FF2C,
+	Bug_SeeAnt_m588E7DB3D41C0947B04FC59077F71E64B52BB6BF,
+	Bug_SeeSpider_mB19A5AA87154BC2BB4DC89EAEEBF84CC283EE29C,
+	Bug__ctor_m359BD3D328463F98286B9529D957A6D7EED69E62,
+	BugManager__ctor_m47C900AB78EF25680FA589B1A184EBB3E0FB574D,
+	BugManager_Start_mF0A3431574A1656721A56FF3DED39FC177F98FAB,
+	BugManager_Update_m8B89276A69A08A7173D4326D2BD69BE35D714BB8,
+	BugManager_KnowClosestAnt_mE68929602AC451095ED764140714494B33061944,
+	BugManager_KnowClosestSpider_m2869C00477BD3A3F95A57AE9A3420F0B8A9F571D,
+	BugManager_FindClosestFood_mE848B9876C181DCC9E4CB27B43CBF39261E88B1C,
+	BugManager_SpawnFood_m86359E07603CDC8948484C1805371A9C9935B0BF,
+	FinalScore_Start_m759D78132155ECA23913AB20F0E1924CDEF0896D,
+	FinalScore__ctor_m838A4E0F8F2636F47B90B5D03BC10FB1A8D267C8,
+	Food_OnDrawGizmosSelected_m963533FC171D9B359577A7D5D3D1E14585B8B8B0,
+	Food__ctor_mAC333049BFB2EBB6E99715CA647249B008EEFD66,
+	Hunt_SteeringForces_m9AA03ACC63FED6658C3006C7B96261A37F93DE37,
+	Hunt_OnDrawGizmos_m6FCC643561BDA90B72B1B26C9E3B11E44A969A85,
+	Hunt__ctor_mD31AE59373588827DD436676AFB5091FD78A7DD9,
+	Obstacle_OnDrawGizmosSelected_m6B9B3198C0BB2D8BAE63CAFC64EAC2B4591D5BE6,
+	Obstacle__ctor_mF400BC13FBAC15398D0EE2E05DF96F481257945D,
+	PhysicsObject_Start_m122B168C9190C46415CC394D67044F4C3A4F3052,
+	PhysicsObject_Update_mE5ECA2AD9F5DC2A1E6AF8E294CAB7F35301D6D7E,
+	PhysicsObject_ApplyForce_mE5780F33CC5C6DB96998C5E79A43D3BBB2D3FC56,
+	PhysicsObject_OnDrawGizmosSelected_m801796CAB1A9AAB2366B77D502A79F9CB4F11659,
+	PhysicsObject__ctor_m3B99A8AE855BE294114575396C783B48D3EBD71A,
+	RunAway_Update_m741D7164D18CA009FC67FFD84B25F27EFD5D4630,
+	RunAway_SteeringForces_m8D9E00B953161DDB52C0B5A6050EFA996C371089,
+	RunAway_OnDrawGizmos_m0F370AB9B513A04E121B0135D423EF6AB76D608F,
+	RunAway__ctor_m3F5A8F64E6BAEBE853E5821DAD5246DC25B511DE,
+	SetBugs_Start_m8A7C84B92EDD48DAB59C194677F369AB8B8D460F,
+	SetBugs_AntIncrease_m50D27EA89DF48B379999DD1E5631B4FA316A6414,
+	SetBugs_AntDecrease_m377794B151506FE07687073E7F368B4C1D8F4AAC,
+	SetBugs_SpiderIncrease_mBCE8A4F3819BF5A7DED1946261BABA003F82B67B,
+	SetBugs_SpiderDecrease_m264D485178BCC40A119243636D1FB2ED60CF1EFD,
+	SetBugs__ctor_m2E18A784DD83CED2F273C7D76203359ACBC92F04,
+};
+static const int32_t s_InvokerIndices[45] = 
+{
+	4158,
+	4158,
+	0,
+	3056,
+	3056,
+	3054,
+	3055,
+	4151,
+	3055,
+	3055,
+	4151,
+	3991,
+	3991,
+	4158,
+	4158,
+	4158,
+	4158,
+	2935,
+	2935,
+	2935,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+	3387,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+	4158,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	45,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
