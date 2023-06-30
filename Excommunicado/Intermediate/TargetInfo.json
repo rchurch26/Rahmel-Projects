@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Excommunicado",
+			"Path": "C:\\Users\\Rah\\Documents\\Rahmel-Projects\\Excommunicado\\Source\\Excommunicado.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ExcommunicadoEditor",
+			"Path": "C:\\Users\\Rah\\Documents\\Rahmel-Projects\\Excommunicado\\Source\\ExcommunicadoEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

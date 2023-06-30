@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\source\\excommunicado\\excommunicadoprojectile.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\excommunicadoeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\development\\excommunicado\\definitions.excommunicado.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\source\\excommunicado\\excommunicadoprojectile.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\inc\\excommunicado\\excommunicadoprojectile.generated.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\projectilemovementcomponent.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\movementcomponent.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\movementcomponent.generated.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\projectilemovementcomponent.generated.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\shapecomponent.generated.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\spherecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
