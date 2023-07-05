@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\inc\\excommunicado\\excommunicadoprojectile.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\excommunicadoeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\development\\excommunicado\\definitions.excommunicado.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\source\\excommunicado\\excommunicadoprojectile.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\inc\\excommunicado\\excommunicadoprojectile.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

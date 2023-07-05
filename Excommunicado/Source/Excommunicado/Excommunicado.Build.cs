@@ -14,7 +14,7 @@ public class Excommunicado : ModuleRules
 			"Engine", 
 			"InputCore", 
 			"HeadMountedDisplay",
-			"Niagra",
+			"Niagara",
 			"AIModule",
 			"NavigationSystem",
 			"GameplayTasks",

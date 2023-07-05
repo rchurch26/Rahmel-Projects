@@ -77,7 +77,7 @@ void UTP_WeaponComponent::AttachWeapon(AExcommunicadoCharacter* TargetCharacter)
 	{
 		// Attach the weapon to the First Person Character
 		FAttachmentTransformRules AttachmentRules(EAttachmentRule::SnapToTarget, true);
-		GetOwner()->AttachToComponent(Character->GetMesh1P(),AttachmentRules, FName(TEXT("GripPoint")));
+		GetOwner()->AttachToComponent(Character->GetMesh1P(),AttachmentRules, FName(TEXT("WeaponSocket")));
 
 		// Register so that Fire is called every time the character tries to use the item being held
 		Character->OnUseItem.AddDynamic(this, &UTP_WeaponComponent::Fire);

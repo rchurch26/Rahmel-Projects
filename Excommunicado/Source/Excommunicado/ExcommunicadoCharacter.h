@@ -30,6 +30,10 @@ class AExcommunicadoCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* FirstPersonCameraComponent;
 
+	//Weapon Reference
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon", meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<class AActor> cPistol;
+
 public:
 	AExcommunicadoCharacter();
 
@@ -44,6 +48,20 @@ public:
 	/** Delegate to whom anyone can subscribe to receive this event */
 	UPROPERTY(BlueprintAssignable, Category = "Interaction")
 	FOnUseItem OnUseItem;
+
+	//Reload Montage
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animation")
+	UAnimMontage* reloadMontage;
+
+	//Shooting Montage
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animation")
+	UAnimMontage* shootMontage;
+
+	//Reload Method
+	void Reload();
+
+	//Equip Weapon Method
+	void EquipWeapon();
 protected:
 	
 	/** Fires a projectile. */

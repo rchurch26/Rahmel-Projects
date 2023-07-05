@@ -7,6 +7,7 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/InputSettings.h"
+#include "TP_WeaponComponent.h"
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -42,6 +43,7 @@ void AExcommunicadoCharacter::BeginPlay()
 	// Call the base class  
 	Super::BeginPlay();
 
+	EquipWeapon();
 }
 
 //////////////////////////////////////////////////////////////////////////// Input
@@ -54,6 +56,9 @@ void AExcommunicadoCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+	//Bind Reload Event
+	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &AExcommunicadoCharacter::Reload);
 
 	// Bind fire event
 	PlayerInputComponent->BindAction("PrimaryAction", IE_Pressed, this, &AExcommunicadoCharacter::OnPrimaryAction);
@@ -74,10 +79,55 @@ void AExcommunicadoCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	PlayerInputComponent->BindAxis("Look Up / Down Gamepad", this, &AExcommunicadoCharacter::LookUpAtRate);
 }
 
+void AExcommunicadoCharacter::Reload()
+{
+	UAnimInstance* animInstance = GetMesh1P()->GetAnimInstance();
+	if (animInstance != nullptr)
+	{
+		if (reloadMontage != nullptr)
+		{
+			//Play Reload Montage
+			animInstance->Montage_Play(reloadMontage, 1.0f);
+		}
+	}
+}
+
+void AExcommunicadoCharacter::EquipWeapon()
+{
+	APlayerController* pController = Cast<APlayerController>(GetController());
+
+	const FRotator pRotation = pController->PlayerCameraManager->GetCameraRotation();
+	const FVector pLocation = GetOwner()->GetActorLocation();
+
+	FActorSpawnParameters pSpawnParams;
+	pSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+	AActor* pPistol = GetWorld()->SpawnActor<AActor>(cPistol, pLocation, pRotation, pSpawnParams);
+
+	UTP_WeaponComponent* pWeapon = Cast<UTP_WeaponComponent>(pPistol->GetComponentByClass(UTP_WeaponComponent::StaticClass()));
+	pWeapon->AttachWeapon(this);
+}
+
 void AExcommunicadoCharacter::OnPrimaryAction()
 {
 	// Trigger the OnItemUsed Event
 	OnUseItem.Broadcast();
+
+	UAnimInstance* animInstance = GetMesh1P()->GetAnimInstance();
+	if (animInstance != nullptr)
+	{
+		if (reloadMontage != nullptr)
+		{
+			//Interrupt Reload Montage
+			animInstance->Montage_Stop(0.2f, reloadMontage);
+		}
+
+		if (shootMontage != nullptr)
+		{
+			//Play Shoot Montage
+			animInstance->Montage_Play(shootMontage, 1.0f);
+		}
+	}
 }
 
 void AExcommunicadoCharacter::BeginTouch(const ETouchIndex::Type FingerIndex, const FVector Location)

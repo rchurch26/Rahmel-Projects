@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\source\\excommunicado\\excommunicadocharacter.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\excommunicadoeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\development\\excommunicado\\definitions.excommunicado.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\source\\excommunicado\\excommunicadocharacter.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\inc\\excommunicado\\excommunicadocharacter.generated.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\source\\excommunicado\\excommunicadoprojectile.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\inc\\excommunicado\\excommunicadoprojectile.generated.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\cameracomponent.generated.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\capsulecomponent.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\shapecomponent.generated.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\capsulecomponent.generated.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\inputsettings.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\inputsettings.generated.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\source\\excommunicado\\tp_weaponcomponent.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\inc\\excommunicado\\tp_weaponcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
