@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "NiagaraFunctionLibrary.h"
 #include "TP_WeaponComponent.generated.h"
 
 class AExcommunicadoCharacter;
@@ -14,21 +15,23 @@ class EXCOMMUNICADO_API UTP_WeaponComponent : public UActorComponent
 	GENERATED_BODY()
 
 public:
-	/** Projectile class to spawn */
-	UPROPERTY(EditDefaultsOnly, Category=Projectile)
-	TSubclassOf<class AExcommunicadoProjectile> ProjectileClass;
+	//Weapon Sounds
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound")
+	USoundBase* fireSound;
 
-	/** Sound to play each time we fire */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
-	USoundBase* FireSound;
-	
-	/** AnimMontage to play each time we fire */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-	UAnimMontage* FireAnimation;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound")
+	USoundBase* emptySound;
 
-	/** Gun muzzle's offset from the characters location */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
-	FVector MuzzleOffset;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound")
+	TArray<USoundBase*> environmentSounds;
+
+	//Muzzle Offset
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
+	FVector muzzleOffset;
+
+	//Muzzle Flash
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SFX")
+	UNiagaraSystem* muzzleFlash;
 
 	/** Sets default values for this component's properties */
 	UTP_WeaponComponent();

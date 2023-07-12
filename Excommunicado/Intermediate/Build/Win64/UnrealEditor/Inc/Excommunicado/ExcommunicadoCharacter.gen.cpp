@@ -14,11 +14,12 @@ void EmptyLinkFunctionForGeneratedCodeExcommunicadoCharacter() {}
 	EXCOMMUNICADO_API UClass* Z_Construct_UClass_AExcommunicadoCharacter_NoRegister();
 	EXCOMMUNICADO_API UClass* Z_Construct_UClass_AExcommunicadoCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 // End Cross Module References
 	struct Z_Construct_UDelegateFunction_Excommunicado_OnUseItem__DelegateSignature_Statics
 	{
@@ -44,8 +45,63 @@ void EmptyLinkFunctionForGeneratedCodeExcommunicadoCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	DEFINE_FUNCTION(AExcommunicadoCharacter::execHandleOnMontageEnd)
+	{
+		P_GET_OBJECT(UAnimMontage,Z_Param_montage);
+		P_GET_UBOOL(Z_Param_interrupted);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->HandleOnMontageEnd(Z_Param_montage,Z_Param_interrupted);
+		P_NATIVE_END;
+	}
 	void AExcommunicadoCharacter::StaticRegisterNativesAExcommunicadoCharacter()
 	{
+		UClass* Class = AExcommunicadoCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "HandleOnMontageEnd", &AExcommunicadoCharacter::execHandleOnMontageEnd },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics
+	{
+		struct ExcommunicadoCharacter_eventHandleOnMontageEnd_Parms
+		{
+			UAnimMontage* montage;
+			bool interrupted;
+		};
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_montage;
+		static void NewProp_interrupted_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_interrupted;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics::NewProp_montage = { "montage", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ExcommunicadoCharacter_eventHandleOnMontageEnd_Parms, montage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics::NewProp_interrupted_SetBit(void* Obj)
+	{
+		((ExcommunicadoCharacter_eventHandleOnMontageEnd_Parms*)Obj)->interrupted = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics::NewProp_interrupted = { "interrupted", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ExcommunicadoCharacter_eventHandleOnMontageEnd_Parms), &Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics::NewProp_interrupted_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics::NewProp_montage,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics::NewProp_interrupted,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ExcommunicadoCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AExcommunicadoCharacter, nullptr, "HandleOnMontageEnd", nullptr, nullptr, sizeof(Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics::ExcommunicadoCharacter_eventHandleOnMontageEnd_Parms), Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AExcommunicadoCharacter);
 	UClass* Z_Construct_UClass_AExcommunicadoCharacter_NoRegister()
@@ -55,6 +111,7 @@ void EmptyLinkFunctionForGeneratedCodeExcommunicadoCharacter() {}
 	struct Z_Construct_UClass_AExcommunicadoCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -71,6 +128,10 @@ void EmptyLinkFunctionForGeneratedCodeExcommunicadoCharacter() {}
 #endif
 		static const UECodeGen_Private::FClassPropertyParams NewProp_cPistol;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_cPlayerHUD_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_cPlayerHUD;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_TurnRateGamepad_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_TurnRateGamepad;
@@ -86,6 +147,18 @@ void EmptyLinkFunctionForGeneratedCodeExcommunicadoCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_shootMontage_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_shootMontage;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_health_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_health;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_currentAmmo_MetaData[];
+#endif
+		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_currentAmmo;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_totalAmmo_MetaData[];
+#endif
+		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_totalAmmo;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -93,6 +166,9 @@ void EmptyLinkFunctionForGeneratedCodeExcommunicadoCharacter() {}
 	UObject* (*const Z_Construct_UClass_AExcommunicadoCharacter_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_Excommunicado,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AExcommunicadoCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AExcommunicadoCharacter_HandleOnMontageEnd, "HandleOnMontageEnd" }, // 2230227849
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AExcommunicadoCharacter_Statics::Class_MetaDataParams[] = {
@@ -133,6 +209,16 @@ void EmptyLinkFunctionForGeneratedCodeExcommunicadoCharacter() {}
 #endif
 	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_cPistol = { "cPistol", nullptr, (EPropertyFlags)0x0044000000000005, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AExcommunicadoCharacter, cPistol), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_cPistol_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_cPistol_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_cPlayerHUD_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Weapon" },
+		{ "Comment", "//HUD Reference\n" },
+		{ "ModuleRelativePath", "ExcommunicadoCharacter.h" },
+		{ "ToolTip", "HUD Reference" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_cPlayerHUD = { "cPlayerHUD", nullptr, (EPropertyFlags)0x0044000000000005, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AExcommunicadoCharacter, cPlayerHUD), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_cPlayerHUD_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_cPlayerHUD_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_TurnRateGamepad_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "Comment", "/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */" },
@@ -168,14 +254,41 @@ void EmptyLinkFunctionForGeneratedCodeExcommunicadoCharacter() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_shootMontage = { "shootMontage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AExcommunicadoCharacter, shootMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_shootMontage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_shootMontage_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_health_MetaData[] = {
+		{ "Category", "ExcommunicadoCharacter" },
+		{ "Comment", "//Fields\n" },
+		{ "ModuleRelativePath", "ExcommunicadoCharacter.h" },
+		{ "ToolTip", "Fields" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_health = { "health", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AExcommunicadoCharacter, health), METADATA_PARAMS(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_health_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_health_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_currentAmmo_MetaData[] = {
+		{ "Category", "ExcommunicadoCharacter" },
+		{ "ModuleRelativePath", "ExcommunicadoCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_currentAmmo = { "currentAmmo", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AExcommunicadoCharacter, currentAmmo), METADATA_PARAMS(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_currentAmmo_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_currentAmmo_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_totalAmmo_MetaData[] = {
+		{ "Category", "ExcommunicadoCharacter" },
+		{ "ModuleRelativePath", "ExcommunicadoCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_totalAmmo = { "totalAmmo", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AExcommunicadoCharacter, totalAmmo), METADATA_PARAMS(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_totalAmmo_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_totalAmmo_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AExcommunicadoCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_Mesh1P,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_FirstPersonCameraComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_cPistol,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_cPlayerHUD,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_TurnRateGamepad,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_OnUseItem,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_reloadMontage,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_shootMontage,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_health,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_currentAmmo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_totalAmmo,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AExcommunicadoCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AExcommunicadoCharacter>::IsAbstract,
@@ -185,11 +298,11 @@ void EmptyLinkFunctionForGeneratedCodeExcommunicadoCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AExcommunicadoCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AExcommunicadoCharacter_Statics::PropPointers),
 		0,
 		0x008000A4u,
@@ -213,9 +326,9 @@ void EmptyLinkFunctionForGeneratedCodeExcommunicadoCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Excommunicado_Source_Excommunicado_ExcommunicadoCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AExcommunicadoCharacter, AExcommunicadoCharacter::StaticClass, TEXT("AExcommunicadoCharacter"), &Z_Registration_Info_UClass_AExcommunicadoCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExcommunicadoCharacter), 4059865598U) },
+		{ Z_Construct_UClass_AExcommunicadoCharacter, AExcommunicadoCharacter::StaticClass, TEXT("AExcommunicadoCharacter"), &Z_Registration_Info_UClass_AExcommunicadoCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExcommunicadoCharacter), 751014492U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Excommunicado_Source_Excommunicado_ExcommunicadoCharacter_h_2819949724(TEXT("/Script/Excommunicado"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Excommunicado_Source_Excommunicado_ExcommunicadoCharacter_h_2455119689(TEXT("/Script/Excommunicado"),
 		Z_CompiledInDeferFile_FID_Excommunicado_Source_Excommunicado_ExcommunicadoCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Excommunicado_Source_Excommunicado_ExcommunicadoCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -29,9 +29,21 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Source\Excommunicado">
       <UniqueIdentifier>{F63BBD68-15B2-32E8-A010-70E692ED76A3}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Excommunicado\Enemy.cpp">
+      <Filter>Source\Excommunicado</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Excommunicado\Enemy.h">
+      <Filter>Source\Excommunicado</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Excommunicado\Excommunicado.Build.cs">
       <Filter>Source\Excommunicado</Filter>
     </None>
@@ -69,6 +81,12 @@
       <Filter>Source\Excommunicado</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Excommunicado\TP_WeaponComponent.h">
+      <Filter>Source\Excommunicado</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Excommunicado\Weapon.cpp">
+      <Filter>Source\Excommunicado</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Excommunicado\Weapon.h">
       <Filter>Source\Excommunicado</Filter>
     </ClInclude>
   </ItemGroup>

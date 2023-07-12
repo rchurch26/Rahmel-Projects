@@ -1,18 +1,16 @@
 C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Intermediate\Build\Win64\UnrealEditor\Inc\Excommunicado\TP_PickUpComponent.gen.cpp
 /I .
-/I C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Intermediate\Build\Win64\UnrealEditor\Inc\Excommunicado
-/I C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Source
-/I Runtime
-/I Runtime\TraceLog\Public
-/I Runtime\Core\Public
-/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject
-/I Runtime\CoreUObject\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
+/I Runtime
 /I ..\Shaders\Shared
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreOnline
 /I Runtime\CoreOnline\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject
+/I Runtime\CoreUObject\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\NetCore
 /I Runtime\Net
 /I Runtime\Net\Core\Classes
@@ -253,6 +251,8 @@ C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Intermediate\Build\Win64\Un
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
+/I C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Intermediate\Build\Win64\UnrealEditor\Inc\Excommunicado
+/I C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Source
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh

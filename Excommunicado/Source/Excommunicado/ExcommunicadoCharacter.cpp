@@ -8,6 +8,7 @@
 #include "Components/InputComponent.h"
 #include "GameFramework/InputSettings.h"
 #include "TP_WeaponComponent.h"
+#include "Blueprint/UserWidget.h"
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -43,7 +44,18 @@ void AExcommunicadoCharacter::BeginPlay()
 	// Call the base class  
 	Super::BeginPlay();
 
+	//Bind Events
+	GetMesh1P()->GetAnimInstance()->OnMontageEnded.AddDynamic(this, &AExcommunicadoCharacter::HandleOnMontageEnd);
+
+	//Equip Default Weapon
 	EquipWeapon();
+
+	if (cPlayerHUD != nullptr)
+	{
+		//Add HUD to Viewport
+		UUserWidget* HUD = CreateWidget<UUserWidget>(Cast<APlayerController>(GetController()), cPlayerHUD);
+		HUD->AddToViewport(9999);
+	}
 }
 
 //////////////////////////////////////////////////////////////////////////// Input
@@ -81,30 +93,47 @@ void AExcommunicadoCharacter::SetupPlayerInputComponent(class UInputComponent* P
 
 void AExcommunicadoCharacter::Reload()
 {
-	UAnimInstance* animInstance = GetMesh1P()->GetAnimInstance();
-	if (animInstance != nullptr)
+	//Check if reloading is neccessary
+	if (currentAmmo < equippedWeapon->magSize && totalAmmo > 0)
 	{
-		if (reloadMontage != nullptr)
+		//Get Anim Instance and Be sure it Exists
+		UAnimInstance* animInstance = GetMesh1P()->GetAnimInstance();
+		if (animInstance != nullptr)
 		{
-			//Play Reload Montage
-			animInstance->Montage_Play(reloadMontage, 1.0f);
+			if (reloadMontage != nullptr)
+			{
+				//Play Reload Montage
+				animInstance->Montage_Play(reloadMontage, 1.0f);
+			}
 		}
 	}
 }
 
 void AExcommunicadoCharacter::EquipWeapon()
 {
+	//Get Player Controller
 	APlayerController* pController = Cast<APlayerController>(GetController());
 
+	//Get Controller Spawn Location and Rotation
 	const FRotator pRotation = pController->PlayerCameraManager->GetCameraRotation();
 	const FVector pLocation = GetOwner()->GetActorLocation();
 
+	//Define Spawn Params
 	FActorSpawnParameters pSpawnParams;
 	pSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
-	AActor* pPistol = GetWorld()->SpawnActor<AActor>(cPistol, pLocation, pRotation, pSpawnParams);
+	//Spawn Pistol
+	AActor* pPistol = GetWorld()->SpawnActor<AWeapon>(cPistol, pLocation, pRotation, pSpawnParams);
 
-	UTP_WeaponComponent* pWeapon = Cast<UTP_WeaponComponent>(pPistol->GetComponentByClass(UTP_WeaponComponent::StaticClass()));
+	//Set Equipped Weapon
+	equippedWeapon = Cast<AWeapon>(pPistol);
+
+	//Set Ammo
+	currentAmmo = equippedWeapon->magSize;
+	totalAmmo = equippedWeapon->maxAmmo;
+
+	//Equip Pistol
+	UTP_WeaponComponent* pWeapon = equippedWeapon->weaponComponent;
 	pWeapon->AttachWeapon(this);
 }
 
@@ -196,4 +225,30 @@ bool AExcommunicadoCharacter::EnableTouchscreenMovement(class UInputComponent* P
 	}
 	
 	return false;
+}
+
+void AExcommunicadoCharacter::HandleOnMontageEnd(UAnimMontage* montage, bool interrupted)
+{
+	//Get Reload Montage Logic
+	if (montage->GetName().Contains("reload") && !interrupted)
+	{
+		//Check Weapon is Equipped
+		if (equippedWeapon == nullptr)
+		{
+			return;
+		}
+		//Check How Much Needs to be Reloaded
+		if (totalAmmo >= equippedWeapon->magSize)
+		{
+			totalAmmo -= equippedWeapon->magSize;
+			int reloadAmmount = equippedWeapon->magSize - currentAmmo;
+			currentAmmo += reloadAmmount;
+		}
+		else 
+		{
+			int reloadAmmount = abs(totalAmmo - currentAmmo);
+			currentAmmo += reloadAmmount;
+			totalAmmo = 0;
+		}
+	}
 }

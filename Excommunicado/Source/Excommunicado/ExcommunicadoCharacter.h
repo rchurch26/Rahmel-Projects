@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Weapon.h"
 #include "ExcommunicadoCharacter.generated.h"
 
 class UInputComponent;
@@ -34,6 +35,10 @@ class AExcommunicadoCharacter : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon", meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<class AActor> cPistol;
 
+	//HUD Reference
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon", meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<class UUserWidget> cPlayerHUD;
+
 public:
 	AExcommunicadoCharacter();
 
@@ -48,6 +53,8 @@ public:
 	/** Delegate to whom anyone can subscribe to receive this event */
 	UPROPERTY(BlueprintAssignable, Category = "Interaction")
 	FOnUseItem OnUseItem;
+	//Equipped Weapon Reference
+	AWeapon* equippedWeapon;
 
 	//Reload Montage
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animation")
@@ -56,6 +63,16 @@ public:
 	//Shooting Montage
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animation")
 	UAnimMontage* shootMontage;
+
+	//Fields
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	float health = 100.0f;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	int currentAmmo = 0;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	int totalAmmo = 0;
 
 	//Reload Method
 	void Reload();
@@ -112,6 +129,9 @@ protected:
 	bool EnableTouchscreenMovement(UInputComponent* InputComponent);
 
 public:
+	UFUNCTION()
+	void HandleOnMontageEnd(UAnimMontage* montage, bool interrupted);
+
 	/** Returns Mesh1P subobject **/
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	/** Returns FirstPersonCameraComponent subobject **/

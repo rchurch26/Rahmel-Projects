@@ -23,13 +23,13 @@ void EmptyLinkFunctionForGeneratedCodeExcommunicado_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x8F09187C,
-				0x4994F740,
+				0xF3555784,
+				0x014CB24B,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_Excommunicado.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_Excommunicado.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Excommunicado(Z_Construct_UPackage__Script_Excommunicado, TEXT("/Script/Excommunicado"), Z_Registration_Info_UPackage__Script_Excommunicado, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x8F09187C, 0x4994F740));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Excommunicado(Z_Construct_UPackage__Script_Excommunicado, TEXT("/Script/Excommunicado"), Z_Registration_Info_UPackage__Script_Excommunicado, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xF3555784, 0x014CB24B));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
