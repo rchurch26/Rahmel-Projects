@@ -38,10 +38,28 @@
     <Filter Include="Source\Excommunicado">
       <UniqueIdentifier>{F63BBD68-15B2-32E8-A010-70E692ED76A3}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Excommunicado\BTT_ChasePlayer.cpp">
+      <Filter>Source\Excommunicado</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Excommunicado\BTT_ChasePlayer.h">
+      <Filter>Source\Excommunicado</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Excommunicado\BTT_FindPlayerLocation.cpp">
+      <Filter>Source\Excommunicado</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Excommunicado\BTT_FindPlayerLocation.h">
+      <Filter>Source\Excommunicado</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Excommunicado\Enemy.cpp">
       <Filter>Source\Excommunicado</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Excommunicado\Enemy.h">
+      <Filter>Source\Excommunicado</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Excommunicado\EnemyController.cpp">
+      <Filter>Source\Excommunicado</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Excommunicado\EnemyController.h">
       <Filter>Source\Excommunicado</Filter>
     </ClInclude>
     <None Include="..\..\Source\Excommunicado\Excommunicado.Build.cs">
@@ -89,5 +107,8 @@
     <ClInclude Include="..\..\Source\Excommunicado\Weapon.h">
       <Filter>Source\Excommunicado</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Excommunicado\EnemyKeys.h" />
   </ItemGroup>
 </Project>
