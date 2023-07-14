@@ -10,7 +10,7 @@
 AEnemyController::AEnemyController(FObjectInitializer const& objectInit)
 {
 	//Get Behavior Tree
-	static ConstructorHelpers::FObjectFinder<UBehaviorTree> treeFinder(TEXT("BehaviorTree'/Game/Game/AI/BT_EnemyBT.BT_EnemyBT'"));
+	static ConstructorHelpers::FObjectFinder<UBehaviorTree> treeFinder(TEXT("BehaviorTree'/Game/Game/AI/EnemyBT.EnemyBT'"));
 	if (treeFinder.Succeeded())
 	{
 		behaviorTree = treeFinder.Object;
@@ -23,6 +23,7 @@ AEnemyController::AEnemyController(FObjectInitializer const& objectInit)
 
 void AEnemyController::BeginPlay()
 {
+	//Run Default BeginPlay Method
 	Super::BeginPlay();
 
 	//Run Behavior Tree
