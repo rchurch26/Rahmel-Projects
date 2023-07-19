@@ -8,14 +8,23 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UAnimMontage;
 #ifdef EXCOMMUNICADO_Enemy_generated_h
 #error "Enemy.generated.h already included, missing '#pragma once' in Enemy.h"
 #endif
 #define EXCOMMUNICADO_Enemy_generated_h
 
 #define FID_Excommunicado_Source_Excommunicado_Enemy_h_12_SPARSE_DATA
-#define FID_Excommunicado_Source_Excommunicado_Enemy_h_12_RPC_WRAPPERS
-#define FID_Excommunicado_Source_Excommunicado_Enemy_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Excommunicado_Source_Excommunicado_Enemy_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleOnMontageEnded);
+
+
+#define FID_Excommunicado_Source_Excommunicado_Enemy_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleOnMontageEnded);
+
+
 #define FID_Excommunicado_Source_Excommunicado_Enemy_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemy(); \

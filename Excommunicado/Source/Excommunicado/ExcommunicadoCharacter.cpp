@@ -9,6 +9,7 @@
 #include "GameFramework/InputSettings.h"
 #include "TP_WeaponComponent.h"
 #include "Blueprint/UserWidget.h"
+#include "Kismet/GameplayStatics.h"
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -135,6 +136,18 @@ void AExcommunicadoCharacter::EquipWeapon()
 	//Equip Pistol
 	UTP_WeaponComponent* pWeapon = equippedWeapon->weaponComponent;
 	pWeapon->AttachWeapon(this);
+}
+
+void AExcommunicadoCharacter::TakeDamage(float damage)
+{
+	//Deal Damage
+	health -= damage;
+
+	//Death Handle
+	if (health <= 0)
+	{
+		UGameplayStatics::OpenLevel(GetWorld(), FName(GetWorld()->GetName()), true);
+	}
 }
 
 void AExcommunicadoCharacter::OnPrimaryAction()

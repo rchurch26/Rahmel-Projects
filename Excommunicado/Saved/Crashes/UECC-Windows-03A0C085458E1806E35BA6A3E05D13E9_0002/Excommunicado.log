@@ -1,0 +1,940 @@
+﻿Log file open, 07/15/23 13:55:34
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=272)
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Excommunicado
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Excommunicado.uproject""
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (21H2) [10.0.19044.3208] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 5 2600 Six-Core Processor"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="d4d154874dea2718837b94b82cf2ae3d"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPlatformFile: Not using cached read wrapper
+LogStats: Stats thread started at 1.308979
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-03A0C085458E1806E35BA6A3E05D13E9
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading Android ini files took 0.06 seconds
+LogConfig: Display: Loading IOS ini files took 0.06 seconds
+LogConfig: Display: Loading Mac ini files took 0.06 seconds
+LogConfig: Display: Loading TVOS ini files took 0.07 seconds
+LogConfig: Display: Loading Unix ini files took 0.07 seconds
+LogConfig: Display: Loading HoloLens ini files took 0.07 seconds
+LogConfig: Display: Loading Linux ini files took 0.09 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.09 seconds
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+LogConfig: Display: Loading Windows ini files took 0.04 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE5+Release-5.0-CL-20979098
+LogInit: Engine Version: 5.0.3-20979098+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Windows 10 (21H2) [10.0.19044.3208] (), CPU: AMD Ryzen 5 2600 Six-Core Processor            , GPU: AMD Radeon RX 5700 XT
+LogInit: Compiled (64-bit): Jul  7 2022 02:16:06
+LogInit: Compiled with Visual C++: 19.29.30138.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Unreal Engine/UE_5.0/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2023.07.15-17.55.36:451][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2023.07.15-17.55.36:451][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MatineeActorCameraAnim]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MatineeActorCameraAnim]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2023.07.15-17.55.36:451][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2023.07.15-17.55.36:460][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2023.07.15-17.55.36:460][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2023.07.15-17.55.36:460][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2023.07.15-17.55.36:460][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2023.07.15-17.55.36:460][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2023.07.15-17.55.36:460][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2023.07.15-17.55.36:460][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2023.07.15-17.55.36:460][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2023.07.15-17.55.36:460][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2023.07.15-17.55.36:460][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2023.07.15-17.55.36:460][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2023.07.15-17.55.36:558][  0]LogD3D12RHI: Aftermath initialized
+[2023.07.15-17.55.36:558][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2023.07.15-17.55.36:835][  0]LogD3D12RHI: Found D3D12 adapter 0: AMD Radeon RX 5700 XT (Max supported Feature Level 12_1, shader model 6.6)
+[2023.07.15-17.55.36:835][  0]LogD3D12RHI: Adapter has 8151MB of dedicated video memory, 0MB of dedicated system memory, and 16349MB of shared system memory, 2 output[s]
+[2023.07.15-17.55.36:853][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.2)
+[2023.07.15-17.55.36:853][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16349MB of shared system memory, 0 output[s]
+[2023.07.15-17.55.36:853][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2023.07.15-17.55.36:853][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2023.07.15-17.55.36:854][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [WindowsEditor]
+[2023.07.15-17.55.36:854][  0]LogHAL: Display: Platform has ~ 32 GB [34287636480 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.07.15-17.55.36:854][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2023.07.15-17.55.36:854][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2023.07.15-17.55.36:854][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.07.15-17.55.36:862][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2023.07.15-17.55.36:862][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Saved/Config/WindowsEditor/Editor.ini]
+[2023.07.15-17.55.36:862][  0]LogInit: Computer: DESKTOP-80A7LOC
+[2023.07.15-17.55.36:862][  0]LogInit: User: Rah
+[2023.07.15-17.55.36:862][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.07.15-17.55.36:862][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.07.15-17.55.36:862][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2023.07.15-17.55.36:862][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2023.07.15-17.55.36:862][  0]LogMemory: Process Physical Memory: 261.49 MB used, 321.96 MB peak
+[2023.07.15-17.55.36:862][  0]LogMemory: Process Virtual Memory: 224.91 MB used, 249.24 MB peak
+[2023.07.15-17.55.36:862][  0]LogMemory: Physical Memory: 7554.35 MB used,  25144.89 MB free, 32699.24 MB total
+[2023.07.15-17.55.36:862][  0]LogMemory: Virtual Memory: 9956.61 MB used,  27606.62 MB free, 37563.24 MB total
+[2023.07.15-17.55.36:862][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2023.07.15-17.55.36:870][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.07.15-17.55.37:024][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2023.07.15-17.55.37:026][  0]LogInit: Using OS detected language (en-US).
+[2023.07.15-17.55.37:026][  0]LogInit: Using OS detected locale (en-US).
+[2023.07.15-17.55.37:038][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2023.07.15-17.55.37:298][  0]LogInit: Setting process to per monitor DPI aware
+[2023.07.15-17.55.37:335][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2023.07.15-17.55.37:335][  0]LogWindowsTextInputMethodSystem:   - English (United States) - (Keyboard).
+[2023.07.15-17.55.37:336][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2023.07.15-17.55.37:417][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.07.15-17.55.37:417][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.07.15-17.55.40:928][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2023.07.15-17.55.40:928][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2023.07.15-17.55.41:016][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2023.07.15-17.55.41:016][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2023.07.15-17.55.41:016][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2023.07.15-17.55.41:016][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2023.07.15-17.55.41:016][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2023.07.15-17.55.41:016][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2023.07.15-17.55.41:016][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2023.07.15-17.55.41:016][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2023.07.15-17.55.41:016][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2023.07.15-17.55.41:016][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2023.07.15-17.55.41:016][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2023.07.15-17.55.41:047][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2023.07.15-17.55.41:049][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2023.07.15-17.55.41:079][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2023.07.15-17.55.41:095][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2023.07.15-17.55.41:095][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2023.07.15-17.55.41:201][  0]LogD3D12RHI:     GPU DeviceId: 0x731f (for the marketing name, search the web for "GPU Device Id")
+[2023.07.15-17.55.41:201][  0]LogWindows: Attached monitors:
+[2023.07.15-17.55.41:201][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1040), device: '\\.\DISPLAY1' [PRIMARY]
+[2023.07.15-17.55.41:201][  0]LogWindows:     resolution: 1280x720, work area: (-1280, 130) -> (0, 810), device: '\\.\DISPLAY2'
+[2023.07.15-17.55.41:201][  0]LogWindows: Found 2 attached monitors.
+[2023.07.15-17.55.41:201][  0]LogWindows: EnumDisplayDevices:
+[2023.07.15-17.55.41:201][  0]LogWindows:    0. 'AMD Radeon RX 5700 XT' (P:1 D:1), name: '\\.\DISPLAY1'
+[2023.07.15-17.55.41:201][  0]LogWindows:    1. 'AMD Radeon RX 5700 XT' (P:0 D:1), name: '\\.\DISPLAY2'
+[2023.07.15-17.55.41:202][  0]LogWindows:    2. 'AMD Radeon RX 5700 XT' (P:0 D:0), name: '\\.\DISPLAY3'
+[2023.07.15-17.55.41:202][  0]LogWindows:    3. 'AMD Radeon RX 5700 XT' (P:0 D:0), name: '\\.\DISPLAY4'
+[2023.07.15-17.55.41:202][  0]LogWindows:    4. 'AMD Radeon RX 5700 XT' (P:0 D:0), name: '\\.\DISPLAY5'
+[2023.07.15-17.55.41:203][  0]LogWindows:    5. 'AMD Radeon RX 5700 XT' (P:0 D:0), name: '\\.\DISPLAY6'
+[2023.07.15-17.55.41:203][  0]LogWindows:    6. 'AMD Radeon RX 5700 XT' (P:0 D:0), name: '\\.\DISPLAY7'
+[2023.07.15-17.55.41:203][  0]LogWindows: DebugString: FoundDriverCount:7 
+[2023.07.15-17.55.41:204][  0]LogD3D12RHI:     Adapter Name: AMD Radeon RX 5700 XT
+[2023.07.15-17.55.41:204][  0]LogD3D12RHI:   Driver Version: AMD Software: Adrenalin Edition 23.4.3 (internal:31.0.14051.5006, unified:31.0.14051.5006)
+[2023.07.15-17.55.41:204][  0]LogD3D12RHI:      Driver Date: 4-20-2023
+[2023.07.15-17.55.41:204][  0]LogRHI: Texture pool is 4651 MB (70% of 6645 MB)
+[2023.07.15-17.55.41:204][  0]LogD3D12RHI: Async texture creation enabled
+[2023.07.15-17.55.41:204][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2023.07.15-17.55.41:296][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Excommunicado.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Intermediate/TurnkeyReport_0.log" -log="C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Intermediate/TurnkeyLog_0.log" -project="C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Excommunicado.uproject"  -platform=all'
+[2023.07.15-17.55.41:296][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""D:/Unreal Engine/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Excommunicado.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Intermediate/TurnkeyReport_0.log" -log="C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Intermediate/TurnkeyLog_0.log" -project="C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Excommunicado.uproject"  -platform=all" ]
+[2023.07.15-17.55.41:480][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2023.07.15-17.55.41:481][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2023.07.15-17.55.41:595][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2023.07.15-17.55.41:595][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2023.07.15-17.55.41:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.07.15-17.55.41:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.07.15-17.55.41:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.07.15-17.55.41:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.07.15-17.55.41:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.07.15-17.55.41:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.07.15-17.55.41:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.07.15-17.55.41:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.07.15-17.55.41:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.07.15-17.55.41:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.07.15-17.55.41:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2023.07.15-17.55.41:722][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2023.07.15-17.55.41:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.07.15-17.55.41:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.07.15-17.55.41:783][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.07.15-17.55.41:783][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2023.07.15-17.55.41:783][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.07.15-17.55.41:783][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.07.15-17.55.41:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2023.07.15-17.55.41:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2023.07.15-17.55.41:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2023.07.15-17.55.41:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.07.15-17.55.41:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.07.15-17.55.41:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.07.15-17.55.41:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2023.07.15-17.55.41:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.07.15-17.55.41:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.07.15-17.55.41:879][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2023.07.15-17.55.41:983][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.07.15-17.55.42:006][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2023.07.15-17.55.42:006][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2023.07.15-17.55.42:006][  0]LogTargetPlatformManager:   ADPCM
+[2023.07.15-17.55.42:006][  0]LogTargetPlatformManager:   PCM
+[2023.07.15-17.55.42:028][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2023.07.15-17.55.42:028][  0]LogTargetPlatformManager:   BINKA
+[2023.07.15-17.55.42:028][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2023.07.15-17.55.42:028][  0]LogTargetPlatformManager:   OGG
+[2023.07.15-17.55.42:028][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2023.07.15-17.55.42:028][  0]LogTargetPlatformManager:   OPUS
+[2023.07.15-17.55.42:310][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager:   SF_METAL
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2023.07.15-17.55.42:361][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2023.07.15-17.55.42:391][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2023.07.15-17.55.42:391][  0]LogTargetPlatformManager:   VVM_1_0
+[2023.07.15-17.55.42:391][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2023.07.15-17.55.42:391][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2023.07.15-17.55.42:391][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2023.07.15-17.55.42:391][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2023.07.15-17.55.42:391][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2023.07.15-17.55.42:391][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2023.07.15-17.55.42:393][  0]LogShaderCompilers: Display: Compiling shader autogen file: C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2023.07.15-17.55.42:400][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.07.15-17.55.42:400][  0]LogShaderCompilers: Display: Compiling shader autogen file: C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2023.07.15-17.55.42:407][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.07.15-17.55.42:411][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.07.15-17.55.42:411][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2023.07.15-17.55.42:411][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.07.15-17.55.42:411][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2023.07.15-17.55.42:442][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+[2023.07.15-17.55.42:442][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.07.15-17.55.42:442][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2023.07.15-17.55.42:514][  0]LogDerivedDataCache: Speed tests for C:/Users/Rah/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.07 seconds
+[2023.07.15-17.55.42:514][  0]LogDerivedDataCache: Display: Performance to C:/Users/Rah/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.14ms. RandomReadSpeed=14.92MBs, RandomWriteSpeed=120.40MBs. Assigned SpeedClass 'Local'
+[2023.07.15-17.55.42:517][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rah/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.07.15-17.55.42:517][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.07.15-17.55.42:517][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2023.07.15-17.55.42:529][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2023.07.15-17.55.42:529][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2023.07.15-17.55.42:534][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Intermediate/Shaders/WorkingDirectory/14160/).
+[2023.07.15-17.55.42:534][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Rah/AppData/Local/Temp/UnrealShaderWorkingDir/FBF6AAF645810ED5CAAD27B69A51D3E8/'.
+[2023.07.15-17.55.42:535][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.07.15-17.55.42:535][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 9 workers.
+[2023.07.15-17.55.49:373][  0]LogSlate: Using FreeType 2.10.0
+[2023.07.15-17.55.49:392][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.07.15-17.55.49:677][  0]LogAssetRegistry: FAssetRegistry took 0.0197 seconds to start up
+[2023.07.15-17.55.49:684][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2023.07.15-17.55.49:973][  0]LogSerialization: UsePackageTrailer: 'false'
+[2023.07.15-17.55.49:977][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2023.07.15-17.55.50:356][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2023.07.15-17.55.50:356][  0]LogDeviceProfileManager: Active device profile: [000004E648385CC0][000004E63B730000 50] WindowsEditor
+[2023.07.15-17.55.50:356][  0]LogDeviceProfileManager: Profiles: [000004E648385780][000004E62E610000 50] Windows, [000004E648385CC0][000004E63B730000 50] WindowsEditor, [000004E648385080][000004E648560000 50] WindowsServer, [000004E648381500][000004E648565000 50] WindowsClient, [000004E648384EC0][000004E648567800 50] IOS, [000004E648384D00][000004E64856A000 50] iPadAir2, [000004E648385E80][000004E63B732800 50] IPadPro, [000004E648386200][000004E64856C800 50] iPadAir3, [000004E648384600][000004E648570000 50] iPadAir4, [000004E648382300][000004E648575000 50] iPadMini4, [000004E648380FC0][000004E648577800 50] iPadMini5, [000004E6483824C0][000004E64857A000 50] iPadMini6, [000004E648388A40][000004E6485C0000 50] iPhone6S, [000004E648388880][000004E6485C2800 50] iPhone7, [000004E648388500][000004E6485C5000 50] iPodTouch7, [000004E648386C80][000004E6485CA000 50] iPhone6SPlus, [000004E648383640][000004E6485CC800 50] iPhone7Plus, [000004E648383D40][000004E648562800 50] iPhoneSE, [000004E648387000][000004E64857C800 50] iPhone8, [000004E6483847C0][000004E6485C7800 50] iPhone8Plus, [000004E648385240][000004E6485D0000 50] iPhoneX, [000004E6483871C0][000004E6485D5000 50] iPhoneXS, [000004E648382140][000004E6485D7800 50] iPhoneXSMax, [000004E648384280][000004E6485DA000 50] iPhoneXR, [000004E648387A80][000004E6485DC800 50] iPhone11, [000004E648386740][000004E648572800 50] iPhone11Pro, [000004E648386AC0][000004E6485E0000 50] iPhone11ProMax, [000004E6483886C0][000004E6485E5000 50] iPhoneSE2, [000004E648381F80][000004E6485E7800 50] iPhone12Mini, [000004E648386580][000004E6485EA000 50] iPhone12, [000004E648382680][000004E6485EC800 50] iPhone12Pro, [000004E648385400][000004E6485D2800 50] iPhone12ProMax, [000004E648383100][000004E6485F0000 50] iPhone13Mini, [000004E648381340][000004E6485F5000 50] iPhone13, [000004E6483863C0][000004E6485F7800 50] iPhone13Pro, [000004E648387540][000004E6485FA000 50] iPhone13ProMax, [000004E6483840C0][000004E6485FC800 50] iPadPro105, [000004E6483816C0][000004E6485E2800 50] iPadPro129, [000004E648382BC0][000004E648580000 50] iPadPro97, [000004E648384980][000004E648585000 50] iPadPro2_129, [000004E648388340][000004E648587800 50] iPad5, [000004E648381DC0][000004E64858A000 50] iPad6, [000004E648381180][000004E64858C800 50] iPad7, [000004E648381880][000004E6485F2800 50] iPad8, [000004E648383F00][000004E648590000 50] iPad9, [000004E648383B80][000004E648595000 50] iPadPro11, [000004E648382840][000004E648597800 50] iPadPro2_11, [000004E648387C40][000004E64859A000 50] iPadPro3_11, [000004E648381C00][000004E64859C800 50] iPadPro3_129, [000004E648385B00][000004E648582800 50] iPadPro4_129, [000004E648387FC0][000004E6485A0000 50] iPadPro5_129, [000004E648381A40][000004E6485A5000 50] AppleTV, [000004E648382A00][000004E6485A7800 50] AppleTV4K, [000004E648389840][000004E6485AA000 50] TVOS, [000004E64838B280][000004E648592800 50] Mac, [000004E64838B600][000004E6485AC800 50] MacEditor, [000004E64838AB80][000004E6485B0000 50] MacClient, [000004E648387700][000004E6485B5000 50] MacServer, [000004E64838B7C0][000004E6485BA000 50] Linux, [000004E64838B0C0][000004E6485B7800 50] LinuxEditor, [000004E648389680][000004E6485BC800 50] LinuxArm64Editor, [000004E64838A800][000004E6485A2800 50] LinuxArm64, [000004E648382F40][000004E648610000 50] LinuxClient, [000004E648384B40][000004E648615000 50] LinuxArm64Client, [000004E648382D80][000004E648617800 50] LinuxServer, [000004E64838A100][000004E64861A000 50] LinuxArm64Server, [000004E648388C00][000004E64861C800 50] Android, [000004E6483855C0][000004E6485B2800 50] Android_Preview_OpenGL, [000004E648389140][000004E648620000 50] Android_Preview_Vulkan, [000004E64838A2C0][000004E648625000 50] Android_Low, [000004E648388180][000004E648627800 50] Android_Mid, [000004E64838A640][000004E64862A000 50] Android_High, [000004E648386040][000004E64862C800 50] Android_Default, [000004E64838A9C0][000004E648612800 50] Android_Adreno4xx, [000004E648386E40][000004E648630000 50] Android_Adreno5xx_Low, [000004E6483839C0][000004E648635000 50] Android_Adreno5xx, [000004E64838AF00][000004E648637800 50] Android_Adreno6xx, [000004E648383480][000004E64863A000 50] Android_Adreno6xx_Vulkan, [000004E648383800][000004E64863C800 50] Android_Adreno7xx, [000004E648387380][000004E648622800 50] Android_Adreno7xx_Vulkan, [000004E64838C940][000004E648640000 50] Android_Mali_T6xx, [000004E648386900][000004E648645000 50] Android_Mali_T7xx, [000004E648389A00][000004E648647800 50] Android_Mali_T8xx, [000004E64838B440][000004E64864A000 50] Android_Mali_G71, [000004E6483878C0][000004E64864C800 50] Android_Mali_G72, [000004E648389300][000004E648632800 50] Android_Mali_G72_Vulkan, [000004E648384440][000004E648650000 50] Android_Mali_G76, [000004E648389D80][000004E648655000 50] Android_Mali_G76_Vulkan, [000004E6483832C0][000004E648657800 50] Android_Mali_G77, [000004E64838D900][000004E64865A000 50] Android_Mali_G77_Vulkan, [000004E648388DC0][000004E64865C800 50] Android_Mali_G78, [000004E648389F40][000004E648642800 50] Android_Mali_G78_Vulkan, [000004E64838C080][000004E648660000 50] Android_Mali_G710, [000004E64838C240][000004E648665000 50] Android_Mali_G710_Vulkan, [000004E64838CB00][000004E648667800 50] Android_Xclipse_920, [000004E64838BD00][000004E64866A000 50] Android_Xclipse_920_Vulkan, [000004E648387E00][000004E64866C800 50] Android_Vulkan_SM5, [000004E64838CE80][000004E648652800 50] Android_PowerVR_G6xxx, [000004E64838E8C0][000004E648670000 50] Android_PowerVR_GT7xxx, [000004E64838E540][000004E648675000 50] Android_PowerVR_GE8xxx, [000004E64838E700][000004E648677800 50] Android_PowerVR_GM9xxx, [000004E64838E1C0][000004E64867A000 50] Android_PowerVR_GM9xxx_Vulkan, [000004E64838C400][000004E64867C800 50] Android_TegraK1, [000004E6483894C0][000004E648662800 50] Android_Unknown_Vulkan, [000004E64838C780][000004E648680000 50] Oculus_Quest, [000004E64838E000][000004E648685000 50] Oculus_Quest2, [000004E64838F6C0][000004E648687800 50] HoloLens, 
+[2023.07.15-17.55.50:356][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2023.07.15-17.55.50:497][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2023.07.15-17.55.50:995][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.07.15-17.55.50:995][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.07.15-17.55.50:995][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.07.15-17.55.50:995][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.07.15-17.55.50:995][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.07.15-17.55.51:105][  0]LogNetVersion: Excommunicado 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 678260159)
+[2023.07.15-17.55.51:713][  0]LogSlate: Border
+[2023.07.15-17.55.51:713][  0]LogSlate: BreadcrumbButton
+[2023.07.15-17.55.51:713][  0]LogSlate: Default
+[2023.07.15-17.55.51:713][  0]LogSlate: Icons.Save
+[2023.07.15-17.55.51:713][  0]LogSlate: Icons.Toolbar.Settings
+[2023.07.15-17.55.51:713][  0]LogSlate: ListView
+[2023.07.15-17.55.51:713][  0]LogSlate: SoftwareCursor_CardinalCross
+[2023.07.15-17.55.51:713][  0]LogSlate: SoftwareCursor_Grab
+[2023.07.15-17.55.51:713][  0]LogSlate: TableView.DarkRow
+[2023.07.15-17.55.51:713][  0]LogSlate: TableView.Row
+[2023.07.15-17.55.51:713][  0]LogSlate: TreeView
+[2023.07.15-17.55.53:302][  0]SourceControl: Source control is disabled
+[2023.07.15-17.55.53:406][  0]SourceControl: Source control is disabled
+[2023.07.15-17.55.53:407][  0]SourceControl: Source control is disabled
+[2023.07.15-17.55.53:656][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2023.07.15-17.55.53:657][  0]LogUObjectAllocator: 5584264 out of 0 bytes used by permanent object pool.
+[2023.07.15-17.55.53:657][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.07.15-17.55.55:755][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 9512A8F04F6AF9464935018A73258BC8 | Instance: 1090D08040D53724DABFFEA44EDE6580 (DESKTOP-80A7LOC-14160).
+[2023.07.15-17.55.56:409][  0]LogPython: Using Python 3.9.7
+[2023.07.15-17.55.57:945][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.07.15-17.55.57:977][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.07.15-17.56.00:997][  0]SourceControl: Source control is disabled
+[2023.07.15-17.56.01:026][  0]SourceControl: Source control is disabled
+[2023.07.15-17.56.01:116][  0]SourceControl: Source control is disabled
+[2023.07.15-17.56.01:140][  0]LogOpenImageDenoise: OIDN starting up
+[2023.07.15-17.56.01:189][  0]LogUProjectInfo: Found projects:
+[2023.07.15-17.56.01:688][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.07.15-17.56.01:853][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.07.15-17.56.01:853][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.07.15-17.56.02:388][  0]LogCollectionManager: Loaded 0 collections in 0.001335 seconds
+[2023.07.15-17.56.02:890][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Saved/Collections/' took 0.00s
+[2023.07.15-17.56.02:890][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Content/Developers/Rah/Collections/' took 0.00s
+[2023.07.15-17.56.02:890][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Content/Collections/' took 0.00s
+[2023.07.15-17.56.03:424][  0]LogEngine: Initializing Engine...
+[2023.07.15-17.56.03:446][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2023.07.15-17.56.03:475][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2023.07.15-17.56.04:099][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.07.15-17.56.04:101][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.07.15-17.56.04:147][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-17.56.04:222][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.07.15-17.56.04:228][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.07.15-17.56.04:303][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.07.15-17.56.04:310][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.07.15-17.56.04:310][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2023.07.15-17.56.04:312][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.07.15-17.56.04:312][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.07.15-17.56.04:312][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.15-17.56.04:312][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.15-17.56.04:312][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.15-17.56.04:312][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.15-17.56.04:312][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.07.15-17.56.04:312][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.15-17.56.04:312][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.07.15-17.56.04:313][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.15-17.56.04:313][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.15-17.56.04:313][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.15-17.56.04:313][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.15-17.56.04:374][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.15-17.56.04:413][  0]LogAudioMixer: Display: Using Audio Hardware Device 1 - Panasonic-TV (AMD High Definition Audio Device)
+[2023.07.15-17.56.04:415][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.15-17.56.04:443][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.15-17.56.04:443][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.15-17.56.04:445][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2023.07.15-17.56.04:445][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.07.15-17.56.04:447][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.07.15-17.56.04:447][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2023.07.15-17.56.04:447][  0]LogInit: FAudioDevice initialized.
+[2023.07.15-17.56.04:448][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.07.15-17.56.04:448][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.07.15-17.56.04:448][  0]LogInit: Texture streaming: Enabled
+[2023.07.15-17.56.04:566][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2023.07.15-17.56.04:602][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.07.15-17.56.04:689][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2023.07.15-17.56.04:729][  0]LogLiveCoding: Display: Starting LiveCoding
+[2023.07.15-17.56.04:729][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: ExcommunicadoEditor Win64 Development
+[2023.07.15-17.56.06:911][  0]LogLiveCoding: Display: First instance in process group "UE_Excommunicado_0xc989649c", spawning console
+[2023.07.15-17.56.06:911][  0]LogLiveCoding: Display: Waiting for server
+[2023.07.15-17.56.06:911][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2023.07.15-17.56.06:954][  0]LogInit: Transaction tracking system initialized
+[2023.07.15-17.56.07:153][  0]BlueprintLog: New page: Editor Load
+[2023.07.15-17.56.07:802][  0]LocalizationService: Localization service is disabled
+[2023.07.15-17.56.07:933][  0]TimingProfiler: Initialize
+[2023.07.15-17.56.07:933][  0]TimingProfiler: OnSessionChanged
+[2023.07.15-17.56.07:933][  0]LoadingProfiler: Initialize
+[2023.07.15-17.56.07:933][  0]LoadingProfiler: OnSessionChanged
+[2023.07.15-17.56.07:935][  0]NetworkingProfiler: Initialize
+[2023.07.15-17.56.07:935][  0]NetworkingProfiler: OnSessionChanged
+[2023.07.15-17.56.07:935][  0]MemoryProfiler: Initialize
+[2023.07.15-17.56.07:936][  0]MemoryProfiler: OnSessionChanged
+[2023.07.15-17.56.10:353][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Content/' took 0.03s
+[2023.07.15-17.56.10:353][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2023.07.15-17.56.10:619][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.07.15-17.56.10:623][  0]SourceControl: Source control is disabled
+[2023.07.15-17.56.10:623][  0]LogUnrealEdMisc: Loading editor; pre map load, took 39.699
+[2023.07.15-17.56.10:624][  0]Cmd: MAP LOAD FILE="C:/Users/Rah/Documents/Rahmel-Projects/Excommunicado/Content/Game/Maps/Palace.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.07.15-17.56.10:624][  0]LightingResults: New page: Lighting Build
+[2023.07.15-17.56.10:636][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.07.15-17.56.10:638][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.15-17.56.10:638][  0]MapCheck: New page: Map Check
+[2023.07.15-17.56.10:638][  0]LightingResults: New page: Lighting Build
+[2023.07.15-17.56.10:650][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.15-17.56.10:657][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.07.15-17.56.10:805][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Game/AI/BP_Enemy.BP_Enemy_C
+[2023.07.15-17.56.10:806][  0]LogLinker: Warning: Unable to load Default__BP_Enemy_C with outer Package /Game/Game/AI/BP_Enemy because its class (BP_Enemy_C) does not exist
+[2023.07.15-17.56.10:806][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Game/AI/BP_Enemy.BP_Enemy_C
+[2023.07.15-17.56.10:806][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Game/AI/BP_Enemy.BP_Enemy_C
+[2023.07.15-17.56.10:806][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Game/AI/BP_Enemy.BP_Enemy_C
+[2023.07.15-17.56.13:136][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Game/AI/BP_Enemy.BP_Enemy_C
+[2023.07.15-17.56.13:212][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Game/AI/BP_Enemy.BP_Enemy_C
+[2023.07.15-17.56.13:212][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Game/AI/BP_Enemy.BP_Enemy_C
+[2023.07.15-17.56.13:784][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Content\CityofBrass_Enemies\Meshes\Enemy\Corpse_Melee\Corpse_Melee.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.07.15-17.56.13:812][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Palace'.
+[2023.07.15-17.56.13:812][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.07.15-17.56.13:813][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-17.56.13:813][  0]LogAIModule: Creating AISystem for world Palace
+[2023.07.15-17.56.13:846][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.07.15-17.56.13:863][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.07.15-17.56.13:864][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.07.15-17.56.13:864][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.396ms to complete.
+[2023.07.15-17.56.13:865][  0]LogFileHelpers: Loading map 'Palace' took 3.242
+[2023.07.15-17.56.13:916][  0]LogUnrealEdMisc: Total Editor Startup Time, took 42.993
+[2023.07.15-17.56.13:916][  0]LogShaderCompilers: Display: ================================================
+[2023.07.15-17.56.13:916][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.07.15-17.56.13:916][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.07.15-17.56.13:916][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.07.15-17.56.13:916][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2023.07.15-17.56.13:916][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.07.15-17.56.13:916][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.07.15-17.56.13:917][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.07.15-17.56.13:917][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.07.15-17.56.13:917][  0]LogShaderCompilers: Display: ================================================
+[2023.07.15-17.56.14:116][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.15-17.56.14:127][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.15-17.56.14:136][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.15-17.56.14:147][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.15-17.56.14:322][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal Engine/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2023.07.15-17.56.14:322][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.07.15-17.56.14:335][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal Engine/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2023.07.15-17.56.14:335][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.07.15-17.56.14:348][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal Engine/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2023.07.15-17.56.14:348][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.07.15-17.56.14:359][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal Engine/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2023.07.15-17.56.14:359][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.07.15-17.56.14:380][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal Engine/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2023.07.15-17.56.14:380][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.07.15-17.56.14:393][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal Engine/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2023.07.15-17.56.14:393][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.07.15-17.56.14:407][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal Engine/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2023.07.15-17.56.14:407][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.07.15-17.56.14:425][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal Engine/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2023.07.15-17.56.14:426][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.07.15-17.56.14:434][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal Engine/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2023.07.15-17.56.14:434][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.07.15-17.56.14:444][  0]LogPakFile: Display: Mounted Pak file 'D:/Unreal Engine/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2023.07.15-17.56.14:445][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.07.15-17.56.14:445][  0]LogFeaturePack: Error: Error in Feature pack D:/Unreal Engine/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2023.07.15-17.56.15:244][  0]LogSlate: Took 0.007145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.07.15-17.56.15:257][  0]LogSlate: Took 0.007896 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.07.15-17.56.15:265][  0]LogSlate: Took 0.005864 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.07.15-17.56.15:294][  0]LogViewport: Scene viewport resized to 1526x902, mode Windowed.
+[2023.07.15-17.56.15:745][  0]LogStall: Startup...
+[2023.07.15-17.56.15:747][  0]LogStall: Startup complete.
+[2023.07.15-17.56.15:800][  0]LogLoad: (Engine Initialization) Total time: 44.88 seconds
+[2023.07.15-17.56.15:800][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.07.15-17.56.15:817][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Enemy_C /Game/Game/AI/BP_Enemy.Default__BP_Enemy_C
+[2023.07.15-17.56.15:817][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': BP_Enemy_C /Game/Game/AI/BP_Enemy.Default__BP_Enemy_C
+[2023.07.15-17.56.15:817][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': BP_Enemy_C /Game/Game/AI/BP_Enemy.Default__BP_Enemy_C
+[2023.07.15-17.56.15:817][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/Game/AI/BP_Enemy.BP_Enemy_C
+[2023.07.15-17.56.15:817][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/Game/AI/BP_Enemy.BP_Enemy_C
+[2023.07.15-17.56.15:817][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/Game/AI/BP_Enemy.BP_Enemy_C:SimpleConstructionScript_0
+[2023.07.15-17.56.15:817][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': BP_Enemy_C /Game/Game/AI/BP_Enemy.Default__BP_Enemy_C
+[2023.07.15-17.56.15:817][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Enemy_C /Game/Game/Maps/Palace.Palace:PersistentLevel.BP_Enemy_C_5
+[2023.07.15-17.56.15:817][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': BP_Enemy_C /Game/Game/Maps/Palace.Palace:PersistentLevel.BP_Enemy_C_5
+[2023.07.15-17.56.15:817][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': BP_Enemy_C /Game/Game/Maps/Palace.Palace:PersistentLevel.BP_Enemy_C_5
+[2023.07.15-17.56.15:817][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': BP_Enemy_C /Game/Game/Maps/Palace.Palace:PersistentLevel.BP_Enemy_C_5
+[2023.07.15-17.56.15:959][  0]LogAssetRegistry: Asset discovery search completed in 26.2857 seconds
+[2023.07.15-17.56.16:002][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2023.07.15-17.56.16:052][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.07.15-17.56.16:189][  0]LogSlate: Took 0.005480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.07.15-17.56.16:547][  1]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.07.15-17.56.17:933][ 64]LogNavigationDataBuild: Navigation data generation finished in /Game/Game/Maps/Palace.
+[2023.07.15-17.56.19:141][133]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/Game/Blueprints/BP_PlayerController.BP_PlayerController) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2023.07.15-17.56.19:788][133]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Game/Blueprints/BP_Pistol.BP_Pistol_C
+[2023.07.15-17.56.19:788][133]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Game/Blueprints/BP_Pistol.BP_Pistol_C
+[2023.07.15-17.56.19:788][133]LogLinker: Warning: Unable to load Default__BP_Pistol_C with outer Package /Game/Game/Blueprints/BP_Pistol because its class (BP_Pistol_C) does not exist
+[2023.07.15-17.56.19:788][133]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Game/Blueprints/BP_Pistol.BP_Pistol_C
+[2023.07.15-17.56.19:788][133]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Game/Blueprints/BP_Pistol.BP_Pistol_C
+[2023.07.15-17.56.19:885][133]LogBlueprint: Warning: [AssetLog] C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Content\Game\Blueprints\UI\BP_HUD.uasset: [Compiler] Could not find a variable named "health" in 'ExcommunicadoCharacter'.
+Make sure 'ExcommunicadoCharacter' has been compiled for  Get health
+[2023.07.15-17.56.19:886][133]LogBlueprint: Warning: [AssetLog] C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Content\Game\Blueprints\UI\BP_HUD.uasset: [Compiler] Could not find a variable named "currentAmmo" in 'ExcommunicadoCharacter'.
+Make sure 'ExcommunicadoCharacter' has been compiled for  Get currentAmmo
+[2023.07.15-17.56.19:887][133]LogBlueprint: Warning: [AssetLog] C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Content\Game\Blueprints\UI\BP_HUD.uasset: [Compiler] Could not find a variable named "totalAmmo" in 'ExcommunicadoCharacter'.
+Make sure 'ExcommunicadoCharacter' has been compiled for  Get totalAmmo
+[2023.07.15-17.56.19:887][133]LogBlueprint: Error: [AssetLog] C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Content\Game\Blueprints\UI\BP_HUD.uasset: [Compiler] The property associated with  Health  could not be found in '/Game/Game/Blueprints/UI/BP_HUD.BP_HUD_C'
+[2023.07.15-17.56.19:888][133]LogBlueprint: Error: [AssetLog] C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Content\Game\Blueprints\UI\BP_HUD.uasset: [Compiler] The property associated with  Current Ammo  could not be found in '/Game/Game/Blueprints/UI/BP_HUD.BP_HUD_C'
+[2023.07.15-17.56.19:888][133]LogBlueprint: Error: [AssetLog] C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Content\Game\Blueprints\UI\BP_HUD.uasset: [Compiler] The property associated with  Total Ammo  could not be found in '/Game/Game/Blueprints/UI/BP_HUD.BP_HUD_C'
+[2023.07.15-17.56.19:892][133]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Game/Blueprints/BP_Pistol.BP_Pistol_C
+[2023.07.15-17.56.20:148][133]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Game/Blueprints/BP_Pistol.BP_Pistol_C
+[2023.07.15-17.56.20:148][133]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Game/Blueprints/BP_Pistol.BP_Pistol_C
+[2023.07.15-17.56.20:447][133]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Blueprints/BP_PlayerController.BP_PlayerController
+[2023.07.15-17.56.20:448][133]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-17.56.23:649][133]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2023.07.15-17.56.23:649][133]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049761s
+[2023.07.15-17.56.23:788][133]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.005573s (0.193880s overbudget)
+[2023.07.15-17.56.23:788][133]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/Game/Blueprints/BP_Pistol.BP_Pistol) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2023.07.15-17.56.23:788][133]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Blueprints/BP_Pistol.BP_Pistol
+[2023.07.15-17.56.26:754][133]LogSlate: Window 'Message' being destroyed
+[2023.07.15-17.56.26:761][133]Message dialog closed, result: No, title: Message, text: Blueprint could not be loaded because it derives from an invalid class.  Check to make sure the parent class for this blueprint hasn't been removed! Do you want to continue (it can crash the editor)?
+[2023.07.15-17.56.26:786][133]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/Game/Blueprints/UI/BP_HUD.BP_HUD) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2023.07.15-17.56.26:786][133]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Game/Blueprints/UI/BP_HUD.BP_HUD
+[2023.07.15-17.56.26:786][133]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-17.56.26:797][133]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-17.56.26:809][133]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.07.15-17.56.27:244][133]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.07.15-17.56.27:244][133]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.07.15-17.56.27:293][133]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/Game/AI/BP_Enemy.BP_Enemy) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2023.07.15-17.56.27:293][133]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/AI/BP_Enemy.BP_Enemy
+[2023.07.15-17.56.28:691][133]LogSlate: Window 'Message' being destroyed
+[2023.07.15-17.56.28:780][133]Message dialog closed, result: No, title: Message, text: Blueprint could not be loaded because it derives from an invalid class.  Check to make sure the parent class for this blueprint hasn't been removed! Do you want to continue (it can crash the editor)?
+[2023.07.15-17.56.28:796][133]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/Game/AI/EnemyBT.EnemyBT) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2023.07.15-17.56.28:804][133]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Game/AI/EnemyBT.EnemyBT
+[2023.07.15-17.56.28:842][133]LogAIGraph: Error: BTT_FindPlayerLocation class missing. Referenced by BehaviorTreeGraphNode_Task /Game/Game/AI/EnemyBT.EnemyBT:Behavior Tree.BehaviorTreeGraphNode_Task_9
+[2023.07.15-17.56.28:842][133]LogAIGraph: Error: BTT_ChasePlayer class missing. Referenced by BehaviorTreeGraphNode_Task /Game/Game/AI/EnemyBT.EnemyBT:Behavior Tree.BehaviorTreeGraphNode_Task_10
+[2023.07.15-17.56.28:868][133]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/Game/AI/BB_Enemy.BB_Enemy) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2023.07.15-17.56.28:919][133]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/Game/Blueprints/BP_Pistol.BP_Pistol_C
+[2023.07.15-17.56.28:920][133]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/Game/Blueprints/BP_Pistol.BP_Pistol_C
+[2023.07.15-17.56.28:920][133]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/Game/Blueprints/BP_Pistol.BP_Pistol_C:SimpleConstructionScript_0
+[2023.07.15-17.56.28:920][133]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Weapon Mesh': BP_Pistol_C /Game/Game/Blueprints/BP_Pistol.Default__BP_Pistol_C
+[2023.07.15-17.56.29:377][133]LogNiagara: Compiling System NiagaraSystem /Game/Game/Assets/Particles/NS_MuzzleFlash.NS_MuzzleFlash took 8.982633 sec, no shader worker used.
+[2023.07.15-17.56.30:132][217]LogSlate: Window 'Message Log' being destroyed
+[2023.07.15-17.56.30:141][217]LogSlate: Window 'Message Log' being destroyed
+[2023.07.15-17.56.33:844][550]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.07.15-17.56.40:037][986]LogLiveCoding: Display:    Creating library C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Binaries\Win64\UnrealEditor-Excommunicado.patch_0.lib and object C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Binaries\Win64\UnrealEditor-Excommunicado.patch_0.exp
+[2023.07.15-17.56.40:262][989]LogClass: /Script/Excommunicado Reload.
+[2023.07.15-17.56.40:262][989]LogClass: ExcommunicadoCharacter Reload.
+[2023.07.15-17.56.40:263][989]LogClass: TP_WeaponComponent Reload.
+[2023.07.15-17.56.40:266][989]LogClass: Could not find existing class BTT_ChasePlayer in package /Script/Excommunicado for reload, assuming new or modified class
+[2023.07.15-17.56.40:266][989]LogClass: Could not find existing class BTT_FindPlayerLocation in package /Script/Excommunicado for reload, assuming new or modified class
+[2023.07.15-17.56.40:266][989]LogClass: Could not find existing class Enemy in package /Script/Excommunicado for reload, assuming new or modified class
+[2023.07.15-17.56.40:266][989]LogClass: Could not find existing class EnemyController in package /Script/Excommunicado for reload, assuming new or modified class
+[2023.07.15-17.56.40:266][989]LogClass: Could not find existing class ExcommunicadoCharacter in package /Script/Excommunicado for reload, assuming new or modified class
+[2023.07.15-17.56.40:266][989]LogClass: Function HandleOnMontageEnd is new or belongs to a modified class.
+[2023.07.15-17.56.40:272][989]LogClass: Could not find existing class TP_WeaponComponent in package /Script/Excommunicado for reload, assuming new or modified class
+[2023.07.15-17.56.40:272][989]LogClass: Function AttachWeapon is new or belongs to a modified class.
+[2023.07.15-17.56.40:272][989]LogClass: Function EndPlay is new or belongs to a modified class.
+[2023.07.15-17.56.40:272][989]LogClass: Function Fire is new or belongs to a modified class.
+[2023.07.15-17.56.40:272][989]LogClass: Could not find existing class Weapon in package /Script/Excommunicado for reload, assuming new or modified class
+[2023.07.15-17.56.40:292][989]Re-instancing ExcommunicadoCharacter after reload.
+[2023.07.15-17.56.40:374][989]Re-instancing TP_WeaponComponent after reload.
+[2023.07.15-17.56.40:662][989]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.07.15-17.56.41:162][990]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes new, 2 classes changed, 3 classes unchanged, 2 functions remapped
+[2023.07.15-17.56.41:162][990]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.07.15-17.56.44:607][176]LogSlate: Took 0.006771 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.07.15-17.56.44:624][176]LogSlate: Took 0.006113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.07.15-17.56.47:198][345]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/AI/BP_Enemy.BP_Enemy
+[2023.07.15-17.56.48:597][345]LogSlate: Window 'Message' being destroyed
+[2023.07.15-17.56.48:605][345]Message dialog closed, result: No, title: Message, text: Blueprint could not be loaded because it derives from an invalid class.  Check to make sure the parent class for this blueprint hasn't been removed! Do you want to continue (it can crash the editor)?
+[2023.07.15-17.56.51:107][517]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Blueprints/BP_Pistol.BP_Pistol
+[2023.07.15-17.56.52:565][517]LogSlate: Window 'Message' being destroyed
+[2023.07.15-17.56.52:572][517]Message dialog closed, result: No, title: Message, text: Blueprint could not be loaded because it derives from an invalid class.  Check to make sure the parent class for this blueprint hasn't been removed! Do you want to continue (it can crash the editor)?
+[2023.07.15-17.57.44:196][305]LogDerivedDataCache: C:/Users/Rah/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.674 and deleted 0 file(s) with total size 0 MiB.
+[2023.07.15-18.23.13:452][239]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.07.15-18.23.13:452][239]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.07.15-18.23.14:365][341]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.07.15-18.23.14:365][341]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.07.15-18.23.15:094][403]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Blueprints/BP_Pistol.BP_Pistol
+[2023.07.15-18.23.19:272][403]LogSlate: Window 'Message' being destroyed
+[2023.07.15-18.23.19:279][403]Message dialog closed, result: Yes, title: Message, text: Blueprint could not be loaded because it derives from an invalid class.  Check to make sure the parent class for this blueprint hasn't been removed! Do you want to continue (it can crash the editor)?
+[2023.07.15-18.23.19:279][403]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-18.23.19:485][403]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2023.07.15-18.23.19:564][403]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.079 s
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: === Handled ensure: ===
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: 
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: Ensure condition failed: BpClass != nullptr [File:D:\build\++UE5\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionFilter.cpp] [Line: 657]
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: Unable to resolve IsEventUnimplementable() - Blueprint (BP_Pistol) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: Stack: 
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe1b437cc0 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe1b438672 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe1b4384fb UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18dbd0a5 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18de8fa8 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18dbc267 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe1905594d UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe191de1b5 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe19995a4a UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe19930563 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe191948bf UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe1906c91e UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe1906e7d6 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18e4e889 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18e45c61 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18e71050 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18f33196 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18f33711 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0e504073 UnrealEditor-AssetTools.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe2217bf93 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe2217c809 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe2217c59a UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffdf59d0805 UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffdf59d0a60 UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffdf59b9aff UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0f0120f0 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0efcb010 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0f0144db UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0efd2c36 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0ef58802 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0f02767d UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0f0148a2 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2023.07.15-18.23.19:564][403]LogOutputDevice: Error: [Callstack] 0x00007ffe2415601e UnrealEditor-Slate.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffe241ce876 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffe241b8249 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffe241acea1 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffe53b6a8f5 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffe53b59247 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffe53b6ce51 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffe53b549a7 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffea49be858 USER32.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffea49be4ee USER32.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffdf20c7f09 InkObj.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffe95071028 atlthunk.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffea49be858 USER32.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffea49be299 USER32.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffe53b6e148 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ff606397114 UnrealEditor.exe!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ff6063b0d9c UnrealEditor.exe!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ff6063b0e8a UnrealEditor.exe!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ff6063b3c4d UnrealEditor.exe!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ff6063c5564 UnrealEditor.exe!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ff6063c8736 UnrealEditor.exe!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffea5657614 KERNEL32.DLL!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: [Callstack] 0x00007ffea69a26b1 ntdll.dll!UnknownFunction []
+[2023.07.15-18.23.19:565][403]LogOutputDevice: Error: 
+[2023.07.15-18.23.19:575][403]LogStats:                SubmitErrorReport -  0.000 s
+[2023.07.15-18.23.20:567][403]LogStats:                    SendNewReport -  0.993 s
+[2023.07.15-18.23.20:567][403]LogStats:             FDebug::EnsureFailed -  1.083 s
+[2023.07.15-18.23.20:662][403]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2023.07.15-18.23.20:733][403]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.072 s
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: === Handled ensure: ===
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: 
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: Ensure condition failed: BpClass != nullptr [File:D:\build\++UE5\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionFilter.cpp] [Line: 756]
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: Unable to resolve IsFieldInaccessible() - Blueprint (BP_Pistol) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: Stack: 
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe1b43840f UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe1b438672 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe1b4384fb UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18dbd0a5 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18de8fa8 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18dbd6c2 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe19055b6f UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe191de1b5 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe19995a4a UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe19930563 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe191948bf UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe1906d069 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe1906e997 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18e4e889 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18e45c61 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18e71050 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18f33196 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe18f33711 UnrealEditor-Kismet.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0e504073 UnrealEditor-AssetTools.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe2217bf93 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe2217c809 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe2217c59a UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffdf59d0805 UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffdf59d0a60 UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffdf59b9aff UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0f0120f0 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0efcb010 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0f0144db UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0efd2c36 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0ef58802 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0f02767d UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe0f0148a2 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe2415601e UnrealEditor-Slate.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe241ce876 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe241b8249 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe241acea1 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe53b6a8f5 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe53b59247 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe53b6ce51 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe53b549a7 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffea49be858 USER32.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffea49be4ee USER32.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffdf20c7f09 InkObj.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe95071028 atlthunk.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffea49be858 USER32.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffea49be299 USER32.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffe53b6e148 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ff606397114 UnrealEditor.exe!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ff6063b0d9c UnrealEditor.exe!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ff6063b0e8a UnrealEditor.exe!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ff6063b3c4d UnrealEditor.exe!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ff6063c5564 UnrealEditor.exe!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ff6063c8736 UnrealEditor.exe!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffea5657614 KERNEL32.DLL!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: [Callstack] 0x00007ffea69a26b1 ntdll.dll!UnknownFunction []
+[2023.07.15-18.23.20:734][403]LogOutputDevice: Error: 

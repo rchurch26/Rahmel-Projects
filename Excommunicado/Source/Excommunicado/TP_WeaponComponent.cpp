@@ -7,6 +7,7 @@
 #include "GameFramework/PlayerController.h"
 #include "Camera/PlayerCameraManager.h"
 #include "Kismet/GameplayStatics.h"
+#include "Enemy.h"
 
 // Sets default values for this component's properties
 UTP_WeaponComponent::UTP_WeaponComponent()
@@ -50,6 +51,24 @@ void UTP_WeaponComponent::Fire()
 				ECollisionChannel::ECC_Pawn, 
 				params);
 			DrawDebugLine(World, SpawnLocation, SpawnLocation + (SpawnRotation.Vector() * 3000), FColor::Red, false, 5.0f, 5, 5.0f);
+
+			//Try to Cast Hit to Enemy
+			AEnemy* enemy = Cast<AEnemy>(outHit.GetActor());
+			if (enemy)
+			{
+				enemy->TakeDamage(10.0f);
+			}
+			else //Play Environmental Sounds
+			{
+				//Check for Sounds
+				if (environmentSounds.Num() > 0)
+				{
+					UGameplayStatics::PlaySoundAtLocation(
+						GetWorld(), 
+						environmentSounds[FMath::RandRange(0, environmentSounds.Num() - 1)], 
+						Character->GetActorLocation());
+				}
+			}
 
 			//Update Ammo Count
 			Character->currentAmmo = Character->currentAmmo - 1;

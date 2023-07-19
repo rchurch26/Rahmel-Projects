@@ -38,6 +38,12 @@
     <Filter Include="Source\Excommunicado">
       <UniqueIdentifier>{F63BBD68-15B2-32E8-A010-70E692ED76A3}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Excommunicado\BTT_Attack.cpp">
+      <Filter>Source\Excommunicado</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Excommunicado\BTT_Attack.h">
+      <Filter>Source\Excommunicado</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Excommunicado\BTT_ChasePlayer.cpp">
       <Filter>Source\Excommunicado</Filter>
     </ClCompile>
@@ -60,6 +66,9 @@
       <Filter>Source\Excommunicado</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Excommunicado\EnemyController.h">
+      <Filter>Source\Excommunicado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Excommunicado\EnemyKeys.h">
       <Filter>Source\Excommunicado</Filter>
     </ClInclude>
     <None Include="..\..\Source\Excommunicado\Excommunicado.Build.cs">
@@ -89,6 +98,12 @@
     <ClInclude Include="..\..\Source\Excommunicado\ExcommunicadoProjectile.h">
       <Filter>Source\Excommunicado</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Excommunicado\IsPlayerInRange.cpp">
+      <Filter>Source\Excommunicado</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Excommunicado\IsPlayerInRange.h">
+      <Filter>Source\Excommunicado</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Excommunicado\TP_PickUpComponent.cpp">
       <Filter>Source\Excommunicado</Filter>
     </ClCompile>
@@ -107,8 +122,5 @@
     <ClInclude Include="..\..\Source\Excommunicado\Weapon.h">
       <Filter>Source\Excommunicado</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Excommunicado\EnemyKeys.h" />
   </ItemGroup>
 </Project>

@@ -79,6 +79,9 @@ public:
 
 	//Equip Weapon Method
 	void EquipWeapon();
+
+	//TakeDamage Method
+	void TakeDamage(float damage);
 protected:
 	
 	/** Fires a projectile. */
