@@ -71,6 +71,12 @@
     <ClInclude Include="..\..\Source\Excommunicado\EnemyKeys.h">
       <Filter>Source\Excommunicado</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Excommunicado\EnemyManager.cpp">
+      <Filter>Source\Excommunicado</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Excommunicado\EnemyManager.h">
+      <Filter>Source\Excommunicado</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Excommunicado\Excommunicado.Build.cs">
       <Filter>Source\Excommunicado</Filter>
     </None>

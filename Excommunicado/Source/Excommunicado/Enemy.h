@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "EnemyManager.h"
 #include "Enemy.generated.h"
 
 UCLASS()
@@ -60,4 +61,8 @@ public:
 	//Montage End Event Handler
 	UFUNCTION()
 		void HandleOnMontageEnded(UAnimMontage* montage, bool interrupted);
+
+private:
+	//Reference Enemy Manager
+	AEnemyManager* enemyManger;
 };
