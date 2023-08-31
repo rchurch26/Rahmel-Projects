@@ -159,6 +159,11 @@ void EmptyLinkFunctionForGeneratedCodeExcommunicadoCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_totalAmmo_MetaData[];
 #endif
 		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_totalAmmo;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_canInteract_MetaData[];
+#endif
+		static void NewProp_canInteract_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_canInteract;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -277,6 +282,17 @@ void EmptyLinkFunctionForGeneratedCodeExcommunicadoCharacter() {}
 	};
 #endif
 	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_totalAmmo = { "totalAmmo", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AExcommunicadoCharacter, totalAmmo), METADATA_PARAMS(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_totalAmmo_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_totalAmmo_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_canInteract_MetaData[] = {
+		{ "Category", "ExcommunicadoCharacter" },
+		{ "ModuleRelativePath", "ExcommunicadoCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_canInteract_SetBit(void* Obj)
+	{
+		((AExcommunicadoCharacter*)Obj)->canInteract = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_canInteract = { "canInteract", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AExcommunicadoCharacter), &Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_canInteract_SetBit, METADATA_PARAMS(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_canInteract_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_canInteract_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AExcommunicadoCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_Mesh1P,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_FirstPersonCameraComponent,
@@ -289,6 +305,7 @@ void EmptyLinkFunctionForGeneratedCodeExcommunicadoCharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_health,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_currentAmmo,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_totalAmmo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExcommunicadoCharacter_Statics::NewProp_canInteract,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AExcommunicadoCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AExcommunicadoCharacter>::IsAbstract,
@@ -326,9 +343,9 @@ void EmptyLinkFunctionForGeneratedCodeExcommunicadoCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Excommunicado_Source_Excommunicado_ExcommunicadoCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AExcommunicadoCharacter, AExcommunicadoCharacter::StaticClass, TEXT("AExcommunicadoCharacter"), &Z_Registration_Info_UClass_AExcommunicadoCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExcommunicadoCharacter), 751014492U) },
+		{ Z_Construct_UClass_AExcommunicadoCharacter, AExcommunicadoCharacter::StaticClass, TEXT("AExcommunicadoCharacter"), &Z_Registration_Info_UClass_AExcommunicadoCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExcommunicadoCharacter), 1171087247U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Excommunicado_Source_Excommunicado_ExcommunicadoCharacter_h_2455119689(TEXT("/Script/Excommunicado"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Excommunicado_Source_Excommunicado_ExcommunicadoCharacter_h_1245720195(TEXT("/Script/Excommunicado"),
 		Z_CompiledInDeferFile_FID_Excommunicado_Source_Excommunicado_ExcommunicadoCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Excommunicado_Source_Excommunicado_ExcommunicadoCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

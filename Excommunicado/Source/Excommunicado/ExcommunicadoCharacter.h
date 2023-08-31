@@ -74,6 +74,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	int totalAmmo = 0;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	bool canInteract = false;
+
 	//Reload Method
 	void Reload();
 
@@ -82,6 +85,9 @@ public:
 
 	//TakeDamage Method
 	void TakeDamage(float damage);
+
+	//Interact Method
+	void Interact();
 protected:
 	
 	/** Fires a projectile. */

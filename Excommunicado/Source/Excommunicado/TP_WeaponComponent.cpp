@@ -8,6 +8,7 @@
 #include "Camera/PlayerCameraManager.h"
 #include "Kismet/GameplayStatics.h"
 #include "Enemy.h"
+#include "GlobalManager.h"
 
 // Sets default values for this component's properties
 UTP_WeaponComponent::UTP_WeaponComponent()
@@ -57,6 +58,7 @@ void UTP_WeaponComponent::Fire()
 			if (enemy)
 			{
 				enemy->TakeDamage(10.0f);
+				Cast<UGlobalManager>(UGameplayStatics::GetGameInstance(GetWorld()))->points += 10;
 			}
 			else //Play Environmental Sounds
 			{

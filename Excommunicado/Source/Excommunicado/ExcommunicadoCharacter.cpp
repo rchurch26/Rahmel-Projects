@@ -10,6 +10,7 @@
 #include "TP_WeaponComponent.h"
 #include "Blueprint/UserWidget.h"
 #include "Kismet/GameplayStatics.h"
+#include "GlobalManager.h"
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -72,6 +73,9 @@ void AExcommunicadoCharacter::SetupPlayerInputComponent(class UInputComponent* P
 
 	//Bind Reload Event
 	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &AExcommunicadoCharacter::Reload);
+
+	//Bind Interact Event
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AExcommunicadoCharacter::Interact);
 
 	// Bind fire event
 	PlayerInputComponent->BindAction("PrimaryAction", IE_Pressed, this, &AExcommunicadoCharacter::OnPrimaryAction);
@@ -147,6 +151,25 @@ void AExcommunicadoCharacter::TakeDamage(float damage)
 	if (health <= 0)
 	{
 		UGameplayStatics::OpenLevel(GetWorld(), FName(GetWorld()->GetName()), true);
+	}
+}
+
+void AExcommunicadoCharacter::Interact()
+{
+	//Ensure Player can Interact
+	if (canInteract)
+	{
+		//Get Global Manager
+		UGlobalManager* mngr = Cast<UGlobalManager>(UGameplayStatics::GetGameInstance(GetWorld()));
+		if (mngr->points >= 1000) //Ensure the player has at least 1000 points to refill ammo
+		{
+			//Negate Points
+			mngr->points -= 1000;
+
+			//Refill Ammo
+			currentAmmo = equippedWeapon->magSize;
+			totalAmmo = equippedWeapon->maxAmmo;
+		}
 	}
 }
 

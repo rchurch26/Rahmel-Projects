@@ -38,6 +38,12 @@
     <Filter Include="Source\Excommunicado">
       <UniqueIdentifier>{F63BBD68-15B2-32E8-A010-70E692ED76A3}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Excommunicado\AmmoStation.cpp">
+      <Filter>Source\Excommunicado</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Excommunicado\AmmoStation.h">
+      <Filter>Source\Excommunicado</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Excommunicado\BTT_Attack.cpp">
       <Filter>Source\Excommunicado</Filter>
     </ClCompile>
@@ -102,6 +108,12 @@
       <Filter>Source\Excommunicado</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Excommunicado\ExcommunicadoProjectile.h">
+      <Filter>Source\Excommunicado</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Excommunicado\GlobalManager.cpp">
+      <Filter>Source\Excommunicado</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Excommunicado\GlobalManager.h">
       <Filter>Source\Excommunicado</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Excommunicado\IsPlayerInRange.cpp">

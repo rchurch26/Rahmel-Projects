@@ -4,6 +4,7 @@
 #include "Enemy.h"
 #include "Kismet/GameplayStatics.h"
 #include "ExcommunicadoCharacter.h"
+#include "GlobalManager.h"
 
 // Sets default values
 AEnemy::AEnemy()
@@ -107,6 +108,7 @@ void AEnemy::Die()
 		if (deathMontage != nullptr)
 		{
 			animInstance->Montage_Play(deathMontage);
+			Cast<UGlobalManager>(UGameplayStatics::GetGameInstance(GetWorld()))->points += 100;
 		}
 	}
 }
