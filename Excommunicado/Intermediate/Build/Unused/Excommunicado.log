@@ -1,1 +1,5 @@
-﻿D:\Visual Studio\Editor\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(69,5): warning MSB8005: The property 'NMakeCompileFile' is not defined.  Skipping...
+﻿  Using bundled DotNet SDK
+  Log file: C:\Users\Rah\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rah\Documents\Rahmel-Projects).
+UnrealBuildTool : error : Unable to build while Live Coding is active. Exit the editor and game, or press Ctrl+Alt+F11 if iterating on code in the editor or game
+D:\Visual Studio\Editor\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""D:\Unreal Engine\UE_5.0\Engine\Build\BatchFiles\Build.bat" ExcommunicadoEditor Win64 Development -Project="C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Excommunicado.uproject" -WaitMutex -FromMsBuild" exited with code 6.
