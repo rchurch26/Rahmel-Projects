@@ -9,6 +9,7 @@
 
 UIsPlayerInRange::UIsPlayerInRange()
 {
+	range = 100.0f;
 	bNotifyBecomeRelevant = true;
 	NodeName = TEXT("Is Player In Range");
 }

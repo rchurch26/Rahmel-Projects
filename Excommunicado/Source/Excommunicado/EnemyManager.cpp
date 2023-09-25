@@ -14,7 +14,7 @@ AEnemyManager::AEnemyManager()
 
 }
 
-void AEnemyManager::SpawnFirstWave()
+/*void AEnemyManager::SpawnFirstWave()
 {
 	//Check if there are enemies
 	if (enemies.Num() > 0)
@@ -174,28 +174,28 @@ void AEnemyManager::ModifyWaveSpeeds()
 		enemy->GetCharacterMovement()->MaxWalkSpeed = FMath::RandRange(minWalkSpeed, maxWalkSpeed);
 	}
 }
-
+*/
 // Called when the game starts or when spawned
 void AEnemyManager::BeginPlay()
 {
 	Super::BeginPlay();
 	
 	//Get Enemy Actors and Store them
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AEnemy::StaticClass(), enemies);
+	//UGameplayStatics::GetAllActorsOfClass(GetWorld(), AEnemy::StaticClass(), enemies);
 
 	//Delay Enemy Spawn
 	FTimerHandle timerHandle;
-	GetWorld()->GetTimerManager().SetTimer(timerHandle, [&]()
-		{
+	//GetWorld()->GetTimerManager().SetTimer(timerHandle, [&]()
+		//{
 			//Spawn Enemy Default Count
-			SpawnFirstWave();
+			//SpawnFirstWave();
 
 			//Modify Wave Speed
-			ModifyWaveSpeeds();
-		}, 3, false);
+			//ModifyWaveSpeeds();
+		//}, 3, false);
 
 	//Initialize Wave Size
-	waveSize = firstWaveCount;
+	//waveSize = firstWaveCount;
 }
 
 // Called every frame

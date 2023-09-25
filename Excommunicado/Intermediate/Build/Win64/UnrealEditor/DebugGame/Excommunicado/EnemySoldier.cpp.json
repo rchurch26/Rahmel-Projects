@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\source\\excommunicado\\enemysoldier.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\excommunicadoeditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\debuggame\\excommunicado\\definitions.excommunicado.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\source\\excommunicado\\enemysoldier.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\source\\excommunicado\\enemy.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\source\\excommunicado\\enemymanager.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\inc\\excommunicado\\enemymanager.generated.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\inc\\excommunicado\\enemy.generated.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\inc\\excommunicado\\enemysoldier.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\inc\\excommunicado\\excommunicadogamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\excommunicadoeditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\debuggame\\excommunicado\\definitions.excommunicado.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\source\\excommunicado\\excommunicadogamemode.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "d:\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\rah\\documents\\rahmel-projects\\excommunicado\\intermediate\\build\\win64\\unrealeditor\\inc\\excommunicado\\excommunicadogamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

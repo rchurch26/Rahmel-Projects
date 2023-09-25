@@ -20,13 +20,13 @@ void AEnemy::BeginPlay()
 	Super::BeginPlay();
 	
 	//Bind Events
-	GetMesh()->GetAnimInstance()->OnMontageEnded.AddDynamic(this, &AEnemy::HandleOnMontageEnded);
+	//GetMesh()->GetAnimInstance()->OnMontageEnded.AddDynamic(this, &AEnemy::HandleOnMontageEnded);
 
 	//Set World Spawn Location
-	worldSpawnLocation = GetActorLocation();
+	//worldSpawnLocation = GetActorLocation();
 
 	//Get reference to enemy manager
-	enemyManger = Cast<AEnemyManager>(UGameplayStatics::GetActorOfClass(GetWorld(), AEnemyManager::StaticClass()));
+	//enemyManger = Cast<AEnemyManager>(UGameplayStatics::GetActorOfClass(GetWorld(), AEnemyManager::StaticClass()));
 }
 
 // Called every frame
@@ -115,12 +115,13 @@ void AEnemy::Die()
 
 void AEnemy::Reset()
 {
+	/*
 	//Teleport Enemy to Spawn Location
 	TeleportTo(worldSpawnLocation, GetActorRotation());
 
 	//Reset Health and Combat Status
 	health = 30.0f;
-	inCombat = false;
+	inCombat = false;*/
 }
 
 void AEnemy::HandleOnMontageEnded(UAnimMontage* montage, bool interrupted)
@@ -128,6 +129,8 @@ void AEnemy::HandleOnMontageEnded(UAnimMontage* montage, bool interrupted)
 	//Check Death Montage
 	if (montage->GetName().Contains("Death"))
 	{
+		Destroy();
+		/*
 		Reset();
 
 		//Update Enemy Manager
@@ -142,7 +145,7 @@ void AEnemy::HandleOnMontageEnded(UAnimMontage* montage, bool interrupted)
 		{
 			//Try to spawn enemies
 			enemyManger->SpawnEnemies();
-		}
+		}*/
 	}
 }
 

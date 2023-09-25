@@ -29,7 +29,10 @@ EBTNodeResult::Type UBTT_Attack::ExecuteTask(UBehaviorTreeComponent& treeCompone
 		}
 	}
 
-	return EBTNodeResult::Type();
+	//Finish Execution
+	FinishLatentTask(treeComponent, EBTNodeResult::Succeeded);
+	return EBTNodeResult::Succeeded;
+	//return EBTNodeResult::Type();
 }
 
 bool UBTT_Attack::attackMontageFinished(AEnemy* enemy)

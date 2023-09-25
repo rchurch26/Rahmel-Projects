@@ -43,7 +43,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound")
 	USoundBase* enemyDamageSound;
-
+	
 	//Combat Fields
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	float health = 30.0f;
@@ -64,5 +64,5 @@ public:
 
 private:
 	//Reference Enemy Manager
-	AEnemyManager* enemyManger;
+	//AEnemyManager* enemyManger;
 };

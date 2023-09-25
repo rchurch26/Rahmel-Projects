@@ -14,7 +14,7 @@ class EXCOMMUNICADO_API AEnemyManager : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AEnemyManager();
-
+	/*
 	//Enemy Container
 	TArray<AActor*> enemies;
 
@@ -38,7 +38,7 @@ public:
 	void SpawnEnemies();
 	TArray<AActor*> GetAllEnemiesInCombat();
 	void ModifyWaveSpeeds();
-
+	*/
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

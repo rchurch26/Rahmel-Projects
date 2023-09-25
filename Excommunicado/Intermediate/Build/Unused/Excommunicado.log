@@ -1,5 +1,24 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\Rah\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rah\Documents\Rahmel-Projects).
-UnrealBuildTool : error : Unable to build while Live Coding is active. Exit the editor and game, or press Ctrl+Alt+F11 if iterating on code in the editor or game
-D:\Visual Studio\Editor\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""D:\Unreal Engine\UE_5.0\Engine\Build\BatchFiles\Build.bat" ExcommunicadoEditor Win64 Development -Project="C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Excommunicado.uproject" -WaitMutex -FromMsBuild" exited with code 6.
+  Invalidating makefile for ExcommunicadoEditor (working set of source files changed)
+  Building ExcommunicadoEditor...
+  Using Visual Studio 2022 14.36.32535 toolchain (D:\Visual Studio\Editor\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from Excommunicado unity file: BTT_Attack.cpp, Enemy.cpp, EnemyManager.cpp, EnemySoldier.cpp, IsPlayerInRange.cpp, TP_WeaponComponent.cpp
+  Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+    Executing up to 6 processes, one per physical core
+  Building 6 actions with 6 processes...
+  [1/6] Compile IsPlayerInRange.gen.cpp
+  [2/6] Compile IsPlayerInRange.cpp
+  [3/6] Compile BTT_Attack.cpp
+C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Source\Excommunicado\Enemy.h(55): warning C4263: 'void AEnemy::TakeDamage(float)': member function does not override any base class virtual member function
+C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Source\Excommunicado\Enemy.h(68): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+  D:\Unreal Engine\UE_5.0\Engine\Source\Runtime\Engine\Classes\GameFramework\Pawn.h(273): note: see declaration of 'APawn::TakeDamage'
+  D:\Unreal Engine\UE_5.0\Engine\Source\Runtime\AIModule\Classes\BrainComponent.h(16): note: see declaration of 'APawn'
+  [4/6] Link UnrealEditor-Excommunicado-Win64-DebugGame.lib
+     Creating library C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Intermediate\Build\Win64\UnrealEditor\DebugGame\Excommunicado\UnrealEditor-Excommunicado-Win64-DebugGame.lib and object C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Intermediate\Build\Win64\UnrealEditor\DebugGame\Excommunicado\UnrealEditor-Excommunicado-Win64-DebugGame.exp
+  [5/6] Link UnrealEditor-Excommunicado-Win64-DebugGame.dll
+     Creating library C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Intermediate\Build\Win64\UnrealEditor\DebugGame\Excommunicado\UnrealEditor-Excommunicado-Win64-DebugGame.suppressed.lib and object C:\Users\Rah\Documents\Rahmel-Projects\Excommunicado\Intermediate\Build\Win64\UnrealEditor\DebugGame\Excommunicado\UnrealEditor-Excommunicado-Win64-DebugGame.suppressed.exp
+  [6/6] WriteMetadata ExcommunicadoEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 4.90 seconds
+  Total execution time: 6.73 seconds

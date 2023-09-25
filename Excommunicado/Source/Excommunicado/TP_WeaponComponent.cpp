@@ -57,7 +57,7 @@ void UTP_WeaponComponent::Fire()
 			AEnemy* enemy = Cast<AEnemy>(outHit.GetActor());
 			if (enemy)
 			{
-				enemy->TakeDamage(10.0f);
+				//enemy->TakeDamage(10.0f);
 				Cast<UGlobalManager>(UGameplayStatics::GetGameInstance(GetWorld()))->points += 10;
 			}
 			else //Play Environmental Sounds
